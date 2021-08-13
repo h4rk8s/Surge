@@ -1,0 +1,5 @@
+#!name=DH-DoH
+#!desc=Enable DNS over HTTPS (DoH) with DH Non-profit DNS service.
+
+[General]
+doh-server = https://dh-dns.global-idc.net/dns-query

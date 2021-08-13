@@ -1,0 +1,13 @@
+#!name=Bili_Auto_Regions
+#!desc=Bili 自动切换 港｜台 区域
+
+[Script]
+Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/(pgc\/view\/(v\d\/)?app|x(\/v\d)?\/view\/video)\/(season|online)\?access_key,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/grootfish/Surge/main/Bili_Auto_Regions.js
+
+# 搜索指定地区的番剧 港｜台
+Bili Search = type=http-request,pattern=^https:\/\/app\.bilibili\.com\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/grootfish/Surge/main/Bili_Auto_Regions.js
+
+[MITM]
+hostname = %APPEND% ap?.bilibili.com
+
+

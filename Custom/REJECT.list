@@ -1,0 +1,43 @@
+DOMAIN,www.sublimetext.com
+DOMAIN,sublimetext.com
+DOMAIN,license.sublimehq.com
+DOMAIN,activate.adobe.com
+DOMAIN,practivate.adobe.com
+DOMAIN,ereg.adobe.com
+DOMAIN,wip3.adobe.com
+DOMAIN,activate.wip3.adobe.com
+DOMAIN,3dns-3.adobe.com
+DOMAIN,3dns-2.adobe.com
+DOMAIN,adobe-dns.adobe.com
+DOMAIN,adobe-dns-2.adobe.com
+DOMAIN,adobe-dns-3.adobe.com
+DOMAIN,ereg.wip3.adobe.com
+DOMAIN,activate-sea.adobe.com
+DOMAIN,wwis-dubc1-vip60.adobe.com
+DOMAIN,activate-sjc0.adobe.com
+DOMAIN,hl2rcv.adobe.com
+DOMAIN,lmlicenses.wip4.adobe.com
+DOMAIN,lm.licenses.adobe.com
+DOMAIN,na2m-pr.licenses.adobe.com
+DOMAIN,ims-na1-prprod.adobelogin.com
+DOMAIN,na4r.services.adobe.com
+DOMAIN,na1r.services.adobe.com
+DOMAIN,hlrcv.stage.adobe.com
+DOMAIN,account.jetbrains.co
+DOMAIN,macitbetter.com
+DOMAIN,dl.houdah.com
+DOMAIN,www.houdah.com
+DOMAIN,rogueamoeba.net
+DOMAIN,api.royalapps.com
+PROCESS-NAME,/Applications/CodeRunner.app/Contents/MacOS/CodeRunner,REJECT
+DOMAIN,coderunnerapp.com
+DOMAIN,www.coderunnerapp.com
+DOMAIN,bugsnag.com
+PROCESS-NAME,/Applications/PDF Expert.app/Contents/MacOS/PDF Expert,REJECT
+PROCESS-NAME,/Applications/Mission Control Plus.app/Contents/MacOS/Mission Control Plus,REJECT
+PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X Menu.app/Contents/Library/LoginItems/CleanMyMac X HealthMonitor.app/Contents/MacOS/CleanMyMac X HealthMonitor,REJECT
+PROCESS-NAME,/Applications/PDF Expert.app/Contents/MacOS/PDF Expert,REJECT
+PROCESS-NAME,/Applications/Mission Control Plus.app/Contents/MacOS/Mission Control Plus,REJECT
+DOMAIN,crystalidea.com,REJECT
+DOMAIN,www.crystalidea.com,REJECT
+DOMAIN,v3pro.crystalidea.com,REJECT

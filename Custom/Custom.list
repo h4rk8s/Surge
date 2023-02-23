@@ -196,7 +196,6 @@ DOMAIN-SUFFIX,wemp.app
 DOMAIN-SUFFIX,gameinstitute.qq.com
 DOMAIN-SUFFIX,read01.com
 DOMAIN-SUFFIX,diva-portal.org
-PROCESS-NAME,/Applications/DeepL.app/Contents/MacOS/DeepL
 DOMAIN-SUFFIX,chuapp.com
 DOMAIN-SUFFIX,gamedonia.com
 DOMAIN-SUFFIX,gamesfromwithin.com
@@ -254,7 +253,7 @@ DOMAIN-SUFFIX,files.pythonhosted.org
 DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,officecdnmac.microsoft.com
 DOMAIN-SUFFIX,software.charliemonroe.net
-DOMAIN-SUFFIX,openai.com,🇨🇳 JK1-V4-台湾01|v2ray // chatgpt
+DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,wp.com
 DOMAIN-SUFFIX,murusfirewall.com
 DOMAIN-SUFFIX,findthatmeme.com

@@ -266,3 +266,4 @@ DOMAIN-SUFFIX,mirror.xyz
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,wandb.ai
+DOMAIN,formulae.brew.sh

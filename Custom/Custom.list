@@ -1,5 +1,5 @@
+
 DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,jike00.net
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,starterstory.com
@@ -108,7 +108,6 @@ DOMAIN-SUFFIX,sidefx.com
 DOMAIN-SUFFIX,getmeta.com
 DOMAIN-SUFFIX,ShapeSpaceVR.com
 DOMAIN-SUFFIX,selvz.com
-DOMAIN-SUFFIX,www,thesubpac.com
 DOMAIN-SUFFIX,vrecover.com
 DOMAIN-SUFFIX,korfx.com
 DOMAIN-SUFFIX,squarespace.com
@@ -267,4 +266,3 @@ DOMAIN-SUFFIX,mirror.xyz
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,wandb.ai
-DOMAIn-SUFFIX,brew.sh

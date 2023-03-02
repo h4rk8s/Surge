@@ -90,10 +90,6 @@ DOMAIN-SUFFIX,waymo.com
 DOMAIN-SUFFIX,widevine.com
 DOMAIN-SUFFIX,x.company
 
-# > Google IP-CIDR
-ip-cidr,173.194.0.0/16
-ip-cidr,74.125.0.0/16
-
 # > Google Domestic CDNs
 DOMAIN,fonts.googleapis.com
 DOMAIN,fonts.gstatic.com

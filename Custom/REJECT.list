@@ -35,7 +35,6 @@ DOMAIN,www.coderunnerapp.com
 DOMAIN,bugsnag.com
 PROCESS-NAME,/Applications/Mission Control Plus.app/Contents/MacOS/Mission Control Plus,REJECT
 PROCESS-NAME,/Applications/CleanMyMac X.app/Contents/Library/LoginItems/CleanMyMac X Menu.app/Contents/Library/LoginItems/CleanMyMac X HealthMonitor.app/Contents/MacOS/CleanMyMac X HealthMonitor,REJECT
-PROCESS-NAME,/Applications/PDF Expert.app/Contents/MacOS/PDF Expert,REJECT
 PROCESS-NAME,/Applications/Mission Control Plus.app/Contents/MacOS/Mission Control Plus,REJECT
 DOMAIN,crystalidea.com,REJECT
 DOMAIN,www.crystalidea.com,REJECT

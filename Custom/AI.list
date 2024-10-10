@@ -52,3 +52,5 @@ DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,jasper.ai
 # OpenArt
 DOMAIN-SUFFIX,openart.ai
+# Leaderboard
+DOMAIN-SUFFIX,lmsys.org

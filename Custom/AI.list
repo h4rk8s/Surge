@@ -10,6 +10,13 @@ DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-KEYWORD,openai
+DOMAIN-SUFFIX,ios.chat.openai.com
+DOMAIN-SUFFIX,ab.chatgpt.com
+DOMAIN-SUFFIX,auth0.openai.com
+DOMAIN-SUFFIX,cdn.auth0.com
+DOMAIN-SUFFIX,unpkg.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,privacy-gateway.cloudflare.com
 # DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 # DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 # DOMAIN,openaicomproductionae4b.blob.core.windows.net

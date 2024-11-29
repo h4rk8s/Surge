@@ -62,3 +62,5 @@ DOMAIN-SUFFIX,openart.ai
 # Leaderboard
 DOMAIN-SUFFIX,lmsys.org
 DOMAIN-SUFFIX,lmarena.ai
+# Groq
+DOMAIN-SUFFIX,groq.com

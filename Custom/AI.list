@@ -28,6 +28,10 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,waa-pa.clients6.google.com
+DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,colab
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-KEYWORD,developerprofiles
 
 # >> Google DeepMind
 DOMAIN-SUFFIX,deepmind.com

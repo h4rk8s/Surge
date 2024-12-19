@@ -82,3 +82,6 @@ DOMAIN,api.github.com
 
 # >> groq
 DOMAIN-SUFFIX,groq.com
+
+# >> other
+DOMAIN-SUFFIX,sillytavernai.com

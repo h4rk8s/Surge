@@ -6,38 +6,40 @@
     const persistentKey = "ai_list_proxy_group";
     let content = "";
     let targetProxyGroup;
-
     try {
         console.log("Script started: toggle_ai_rule.js");
-         let currentProxyGroup = await $persistentStore.read(persistentKey);
-         console.log("Persistent read - Proxy Group:", currentProxyGroup)
-         if (!currentProxyGroup) {
-             console.log("Persistent read - NOT found: Default set");
+        let currentProxyGroup = await $persistentStore.read(persistentKey);
+        console.log("Persistent read - Proxy Group:", currentProxyGroup);
+        if (!currentProxyGroup) {
+            console.log("Persistent read - NOT found: Default set");
             currentProxyGroup = defaultProxyGroup;
-             await $persistentStore.write(defaultProxyGroup, persistentKey);
+            await $persistentStore.write(defaultProxyGroup, persistentKey);
         }
 
-         targetProxyGroup =
+        targetProxyGroup =
             currentProxyGroup === defaultProxyGroup ? iosProxyGroup : defaultProxyGroup;
-         console.log("Proxy selection:", targetProxyGroup);
-        const config = await $httpAPI("get", "/v1/profiles/current");
+        console.log("Proxy selection:", targetProxyGroup);
+
+         const config = await httpAPI("/v1/profiles/current?sensitive=0", "GET")
+
+          console.log("Retrieved config:", config);
         if (!config) {
              console.log("HTTP API Get - Error: Config is null or undefined");
-            $notification.post("iOS配置切换", "错误 (CFG-01)", "无法获取 Surge 配置");
-               content = `AI 代理: 错误 (CFG-01)`;
-                $done({title: "切换AI代理", content: content, style: "info"});
+             $notification.post("iOS配置切换", "错误 (CFG-01)", "无法获取 Surge 配置");
+             content = `AI 代理: 错误 (CFG-01)`;
+             $done({ title: "切换AI代理", content: content, style: "info" });
             return;
         }
 
        if(!config.rules)
         {
-           console.log("HTTP API Get - Error: No rules found")
-          $notification.post("iOS配置切换", "错误 (CFG-02)", "无法获取规则配置");
+          console.log("HTTP API Get - Error: No rules found")
+           $notification.post("iOS配置切换", "错误 (CFG-02)", "无法获取规则配置");
                content = `AI 代理: 错误 (CFG-02)`;
-                $done({title: "切换AI代理", content: content, style: "info"});
+             $done({title: "切换AI代理", content: content, style: "info"});
              return;
         }
-         console.log("HTTP API Get - Rules: ", config.rules);
+        console.log("HTTP API Get - Rules: ", config.rules);
         let found = false;
         let modifiedRules = config.rules.map((rule) => {
             if (rule.startsWith(aiListRule)) {
@@ -48,14 +50,15 @@
             return rule;
         });
 
-       if (!found) {
-           console.log("No existing rule found, adding one.");
-           modifiedRules.push(`${aiListRule}${targetProxyGroup}`);
-         }
+        if (!found) {
+            console.log("No existing rule found, will add one.");
+            modifiedRules.push(`${aiListRule}${targetProxyGroup}`);
+        }
         console.log("Modified Rule:", modifiedRules);
-       const modifyConfig = await $httpAPI("post", "/v1/profiles/modify", {
-            rules: modifiedRules,
-        });
+
+         const modifyConfig = await httpAPI("/v1/profiles/modify", "POST", {
+           rules: modifiedRules,
+          });
          if(!modifyConfig)
          {
            console.log("HTTP API POST - Error: response is null or undefined");
@@ -64,22 +67,25 @@
                  $done({title: "切换AI代理", content: content, style: "info"});
             return
          }
-
          console.log("HTTP API POST - Modified rules");
+
         await $persistentStore.write(targetProxyGroup, persistentKey);
         $notification.post(
             "iOS配置切换",
             "成功",
             `配置已经切换到: ${targetProxyGroup}`
         );
-         content = `AI 代理: ${targetProxyGroup}`;
-         console.log("Final Content:", content);
+        content = `AI 代理: ${targetProxyGroup}`;
+        console.log("Final Content:", content);
 
     } catch (error) {
         console.log(`切换规则错误 (ERR-01):`, error);
         $notification.post("iOS配置切换", "失败 (ERR-01)", `切换规则失败: ${error}`);
-          content = `AI 代理: 错误 (ERR-01)`;
+        content = `AI 代理: 错误 (ERR-01)`;
     }
 
-    $done({title: "切换AI代理", content: content, style: "info"});
+    $done({ title: "切换AI代理", content: content, style: "info" });
+    // prettier-ignore
+   function httpAPI(path = "", method = "POST", body = null) {return new Promise((resolve) => {$httpAPI(method, path, body, (result) => {resolve(result);});});}
+
 })();

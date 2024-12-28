@@ -104,11 +104,6 @@ DOMAIN-SUFFIX,jasper.ai
 # >> OpenArt
 DOMAIN-SUFFIX,openart.ai
 
-# >> GitHub Copilot
-# api.*.githubcopilot.com is not required, since the ip & asn information are coming from api.github.com
-# see https://github.com/SukkaW/Surge/pull/46#discussion_r1849641627
-DOMAIN,api.github.com
-
 # >> groq
 DOMAIN-SUFFIX,groq.com
 

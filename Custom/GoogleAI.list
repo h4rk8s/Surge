@@ -1,4 +1,5 @@
 # >> Google Gemini
+DOMAIN,gemini.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,waa-pa.clients6.google.com

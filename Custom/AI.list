@@ -1,6 +1,7 @@
 # $ meta_title Sukka's Ruleset - AIGC Domains
 # $ meta_description This file contains domains of OpenAI, Claude.
-
+# >> Claude
+DOMAIN-SUFFIX,claude.ai
 # >> POE
 DOMAIN-SUFFIX,poe.com
 

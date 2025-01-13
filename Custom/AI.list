@@ -3,7 +3,7 @@
 # >> Claude
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
-
+DOMAIN-SUFFIX,claudeusercontent.com
 # >> POE
 DOMAIN-SUFFIX,poe.com
 

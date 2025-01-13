@@ -2,6 +2,8 @@
 # $ meta_description This file contains domains of OpenAI, Claude.
 # >> Claude
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+
 # >> POE
 DOMAIN-SUFFIX,poe.com
 

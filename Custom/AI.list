@@ -26,6 +26,10 @@ DOMAIN-SUFFIX,openart.ai
 # >> groq
 DOMAIN-SUFFIX,groq.com
 
+# >> deepseek
+DOMAIN-SUFFIX,deepseek.com
+
 # >> other
 DOMAIN-SUFFIX,sillytavernai.com
 DOMAIN-SUFFIX,civitai.com
+

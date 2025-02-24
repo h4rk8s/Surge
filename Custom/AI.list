@@ -29,6 +29,12 @@ DOMAIN-SUFFIX,groq.com
 # >> deepseek
 DOMAIN-SUFFIX,deepseek.com
 
+# >> MCP server
+DOMAIN-SUFFIX,smithery.ai
+DOMAIN-SUFFIX,glama.ai
+DOMAIN-SUFFIX,cursor.directory
+DOMAIN-SUFFIX,lmsystems.ai
+
 # >> other
 DOMAIN-SUFFIX,sillytavernai.com
 DOMAIN-SUFFIX,civitai.com

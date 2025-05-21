@@ -38,4 +38,9 @@ DOMAIN-SUFFIX,lmsystems.ai
 # >> other
 DOMAIN-SUFFIX,sillytavernai.com
 DOMAIN-SUFFIX,civitai.com
-DOMAIN-SUFFIX,flowith.io
+DOMAIN,flowith.io
+DOMAIN,flowith.featurebase.app
+DOMAIN,do.featurebase.app
+DOMAIN,probe.xacademy.cc
+DOMAIN,aibdxsebwhalbnugsqel.supabase.co
+DOMAIN,edge.flo.ing

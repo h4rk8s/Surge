@@ -130,4 +130,87 @@ function resolveUrl(args) {
 function fetchHeaders(url, ua, fallback = false) {
   return new Promise(resolve => {
     const req = { url, headers: { "User-Agent": ua } };
-    if
+    if (!fallback) req.method = "HEAD";
+    // GET 时尽量减少正文传输
+    if (fallback) req.headers["Range"] = "bytes=0-0";
+
+    $httpClient.get(req, (err, resp) => {
+      if (err || !resp || !resp.headers) {
+        console.log(`fetchHeaders error: ${err || "no resp"}`);
+        return resolve(null);
+      }
+      resolve(resp.headers);
+    });
+  });
+}
+
+function findUserinfoHeaderKey(headers) {
+  const keys = Object.keys(headers || {});
+  return keys.find(k => k.toLowerCase() === "subscription-userinfo");
+}
+
+function parseUserinfo(val) {
+  if (!val) return null;
+  // 兼容 upload/download/total/expire=数字（整数或科学计数）
+  const kvs = {};
+  const re = /(\w+)=([\d.eE+-]+)/g;
+  let m;
+  while ((m = re.exec(val)) !== null) {
+    const key = m[1].toLowerCase();
+    const num = Number(m[2]);
+    if (!Number.isNaN(num)) kvs[key] = num;
+  }
+  return Object.keys(kvs).length ? kvs : null;
+}
+
+function bytesToSize(b) {
+  if (!b || b <= 0) return "0B";
+  const units = ["B","KB","MB","GB","TB","PB"];
+  const k = 1024;
+  const i = Math.floor(Math.log(b) / Math.log(k));
+  const v = b / Math.pow(k, i);
+  return `${v.toFixed(2)} ${units[i]}`;
+}
+
+function getResetRemainingDays(resetDay) {
+  if (!resetDay || resetDay < 1 || resetDay > 31) return null;
+  const now = new Date();
+  const today = now.getDate();
+  const y = now.getFullYear();
+  const m = now.getMonth();
+  const daysThisMonth = new Date(y, m + 1, 0).getDate();
+  const rThis = Math.min(resetDay, daysThisMonth);
+
+  if (rThis > today) return rThis - today;
+
+  const daysNextMonth = new Date(y, m + 2, 0).getDate();
+  const rNext = Math.min(resetDay, daysNextMonth);
+  return (daysThisMonth - today) + rNext;
+}
+
+function getExpireDaysLeft(expire) {
+  if (!expire) return null;
+  let ts = Number(expire);
+  if (!Number.isFinite(ts)) return null;
+  if (ts < 1e12) ts *= 1000; // 秒 -> 毫秒
+  const diff = Math.ceil((ts - Date.now()) / 86400000);
+  return diff > 0 ? diff : null;
+}
+
+function formatDateYMD(expire) {
+  let ts = Number(expire);
+  if (!Number.isFinite(ts)) return "未知日期";
+  if (ts < 1e12) ts *= 1000;
+  const d = new Date(ts);
+  const y = d.getFullYear();
+  const m = d.getMonth() + 1;
+  const day = d.getDate();
+  return `${y}年${m}月${day}日`;
+}
+
+// 兼容 atob（Surge/JS 环境不保证全局存在）
+function atobCompat(b64) {
+  if (typeof atob === "function") return atob(b64);
+  const buf = Buffer.from(b64, "base64");
+  return buf.toString("utf-8");
+}

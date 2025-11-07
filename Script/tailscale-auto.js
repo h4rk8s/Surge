@@ -1,5 +1,5 @@
 // tailscale-auto.js
-// 用法（Surge cron）：argument=test_url=http://100.91.231.16:11434/api/tags&candidates=utun5,utun6,utun7,utun8,utun9
+// 用法（Surge cron）：argument=test_url=http://xxx/api/tags&candidates=utun5,utun6,utun7,utun8,utun9
 
 const GROUP_NAME = 'Tailscale-Auto';
 const STORE_KEY  = 'tailscale_auto_last'; // 存储上次结果，提供给面板

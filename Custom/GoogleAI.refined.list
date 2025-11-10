@@ -1,0 +1,26 @@
+# ===== Gemini / Bard Web =====
+DOMAIN,gemini.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+
+# ===== Generative Language API =====
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# ===== AI Studio / MakerSuite =====
+DOMAIN,ai.google.dev
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,generativeai.google
+
+# ===== NotebookLM =====
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+
+# ===== DeepMind =====
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+
+# 关键：不使用 DOMAIN-KEYWORD,google

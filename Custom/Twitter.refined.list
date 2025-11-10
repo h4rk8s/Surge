@@ -1,0 +1,25 @@
+# ===== X / Twitter Core Domains =====
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+
+# 短链与静态资源
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,twimg.co
+
+# 历史及相关服务（兼容旧链接和周边）
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twittercommunity.com
+DOMAIN-SUFFIX,twitterstat.us
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+
+# 如需更激进，可自行追加：
+# DOMAIN-KEYWORD,twitter
+# 但建议谨慎，避免误伤第三方含 twitter 的域名

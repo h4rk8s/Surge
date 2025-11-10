@@ -1,0 +1,37 @@
+# ===== OpenAI / ChatGPT Core =====
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# Web / API / Static / Storage
+DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+
+# 人机验证 / 防护（OpenAI 相关）
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN,openai-api.arkoselabs.com
+
+# 功能开关 / 实验（强相关）
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+
+# 在线客服 / 内嵌支持（可选）
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+# 观测与配置（可选，如要极致隐私可删）
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,launchdarkly.com
+
+# 支付（建议保留，避免充值/Plus 故障）
+DOMAIN-SUFFIX,stripe.com
+
+# 不使用宽泛 DOMAIN-KEYWORD,openai，避免误杀第三方

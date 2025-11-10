@@ -1,0 +1,54 @@
+# ===== Claude / Anthropic =====
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# ===== Poe =====
+DOMAIN-SUFFIX,poe.com
+
+# ===== Meta AI =====
+DOMAIN-SUFFIX,meta.ai
+
+# ===== Perplexity =====
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,os.ai
+
+# ===== xAI / Grok =====
+DOMAIN-SUFFIX,x.ai
+
+# ===== Mistral =====
+DOMAIN-SUFFIX,mistral.ai
+
+# ===== Groq =====
+DOMAIN-SUFFIX,groq.com
+
+# ===== Cohere =====
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,cohere.com
+
+# ===== OpenRouter =====
+DOMAIN-SUFFIX,openrouter.ai
+
+# ===== DeepSeek =====
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,deepseek.ai
+
+# ===== Dify / 工具平台 =====
+DOMAIN-SUFFIX,dify.ai
+
+# ===== 生态 & 模型资源站（按你原有习惯）=====
+DOMAIN-SUFFIX,civitai.com
+DOMAIN-SUFFIX,smithery.ai
+DOMAIN-SUFFIX,glama.ai
+DOMAIN-SUFFIX,cursor.directory
+DOMAIN-SUFFIX,lmsys.org
+
+# ===== 你原先 AI.list 里实际在用的具体站点（示例）=====
+DOMAIN,flowith.io
+DOMAIN,flowith.featurebase.app
+DOMAIN,do.featurebase.app
+DOMAIN,probe.xacademy.cc
+DOMAIN,aibdxsebwhalbnugsqel.supabase.co
+DOMAIN,edge.flo.ing
+
+# 后续新增 AI 服务，统一加到这里，保持分类清晰

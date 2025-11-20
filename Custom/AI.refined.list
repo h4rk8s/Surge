@@ -36,6 +36,10 @@ DOMAIN-SUFFIX,deepseek.ai
 # ===== Dify / 工具平台 =====
 DOMAIN-SUFFIX,dify.ai
 
+# ===== Dia /浏览器 =====
+DOMAIN-SUFFIX,diabrowser.engineering
+DOMAIN-SUFFIX,diabrowser.com
+
 # ===== 生态 & 模型资源站（按你原有习惯）=====
 DOMAIN-SUFFIX,civitai.com
 DOMAIN-SUFFIX,smithery.ai

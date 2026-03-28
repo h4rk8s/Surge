@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T08:04:48+00:00",
+  "generated_at": "2026-03-28T08:15:03+00:00",
   "repo_seed_files": [
     "Custom/ChatGPT.refined.list",
     "Custom/GoogleAI.refined.list",
@@ -25,12 +25,12 @@
     ]
   },
   "counts": {
-    "openai.strict.list": 24,
+    "openai.strict.list": 37,
     "google_ai.strict.list": 24,
     "anthropic.strict.list": 5,
-    "grok_x.strict.list": 18,
+    "grok_x.strict.list": 34,
     "perplexity.strict.list": 1,
     "other_ai.strict.list": 6,
-    "ai_bundle.strict.list": 78
+    "ai_bundle.strict.list": 107
   }
 }

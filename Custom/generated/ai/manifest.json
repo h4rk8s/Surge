@@ -1,6 +1,6 @@
 {
   "mode": "aggressive",
-  "generated_at": "2026-03-28T09:43:55+00:00",
+  "generated_at": "2026-03-28T09:44:47+00:00",
   "repo_seed_files": [
     "Custom/ChatGPT.refined.list",
     "Custom/GoogleAI.refined.list",
@@ -85,11 +85,14 @@
     "sukka_ai": {
       "source_kind": "upstream",
       "source_name": "sukka_ai",
-      "selected_url": "https://ruleset.skk.moe/List/non_ip/ai.conf",
+      "selected_url": "https://raw.githubusercontent.com/SukkaW/Surge/master/Source/non_ip/ai.conf",
       "last_modified": "",
-      "etag": "W/\"24a9e2765e3a001597feb1e73636e32d\"",
-      "upstream_updated": "2026-03-21T15:12:50.583Z",
-      "raw_count": "50"
+      "etag": "\"eff15baaab50fc5e7fe8c15651f970574bb75606c56d134eaa8da9c036ffae4a\"",
+      "upstream_updated": "",
+      "raw_count": "50",
+      "commit_sha": "4cff6af8996bef8a8a4d26cd5db86964d7f999b9",
+      "commit_date": "2026-03-21T15:12:16Z",
+      "commit_message": "Update AI Hosts to Bypass Google Gemini HTTP 429"
     },
     "v2fly_openai": {
       "source_kind": "upstream",

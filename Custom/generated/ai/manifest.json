@@ -1,6 +1,6 @@
 {
   "mode": "aggressive",
-  "generated_at": "2026-03-28T09:45:22+00:00",
+  "generated_at": "2026-03-28T09:47:08+00:00",
   "repo_seed_files": [
     "Custom/ChatGPT.refined.list",
     "Custom/GoogleAI.refined.list",
@@ -40,164 +40,116 @@
     "Custom/ChatGPT.refined.list": {
       "source_name": "Custom/ChatGPT.refined.list",
       "source_kind": "repo_seed",
-      "selected_url": "Custom/ChatGPT.refined.list",
       "raw_count": "22",
-      "commit_sha": "5da83d83c36b7c0b75cbfb2a9aa10602e00fb61b",
-      "commit_date": "2025-11-10T09:15:36+08:00",
-      "commit_message": "ChatGPT.refined.list"
+      "signal": "2025-11-10T09:15:36+08:00"
     },
     "Custom/GoogleAI.refined.list": {
       "source_name": "Custom/GoogleAI.refined.list",
       "source_kind": "repo_seed",
-      "selected_url": "Custom/GoogleAI.refined.list",
       "raw_count": "15",
-      "commit_sha": "fd6819dde5df02f630067cabd457a102d3882ff8",
-      "commit_date": "2025-11-10T09:15:50+08:00",
-      "commit_message": "Create GoogleAI.refined.list"
+      "signal": "2025-11-10T09:15:50+08:00"
     },
     "Custom/AI.refined.list": {
       "source_name": "Custom/AI.refined.list",
       "source_kind": "repo_seed",
-      "selected_url": "Custom/AI.refined.list",
       "raw_count": "29",
-      "commit_sha": "30e95d0bac9c94cae366bc81533a28d6dc822086",
-      "commit_date": "2025-11-20T16:06:05+08:00",
-      "commit_message": "Update AI.refined.list"
+      "signal": "2025-11-20T16:06:05+08:00"
     },
     "Custom/Twitter.refined.list": {
       "source_name": "Custom/Twitter.refined.list",
       "source_kind": "repo_seed",
-      "selected_url": "Custom/Twitter.refined.list",
       "raw_count": "16",
-      "commit_sha": "82bdc27675666c9ce96433e3b8135e390059b3c5",
-      "commit_date": "2025-11-10T09:19:27+08:00",
-      "commit_message": "Create Twitter.refined.list with core domains"
+      "signal": "2025-11-10T09:19:27+08:00"
     },
     "Custom/AI_Custom.list": {
       "source_name": "Custom/AI_Custom.list",
       "source_kind": "repo_seed",
-      "selected_url": "Custom/AI_Custom.list",
       "raw_count": "1",
-      "commit_sha": "1b1ec4e0f6ca8628dcbe46ae049a44b838f5e5a6",
-      "commit_date": "2025-11-10T09:16:30+08:00",
-      "commit_message": "AI_Custom.list"
+      "signal": "2025-11-10T09:16:30+08:00"
     },
     "sukka_ai": {
-      "source_kind": "upstream",
       "source_name": "sukka_ai",
-      "selected_url": "https://ruleset.skk.moe/List/non_ip/ai.conf",
-      "last_modified": "",
-      "etag": "W/\"24a9e2765e3a001597feb1e73636e32d\"",
-      "upstream_updated": "2026-03-21T15:12:50.583Z",
-      "raw_count": "50"
+      "source_kind": "upstream",
+      "raw_count": "50",
+      "signal": "2026-03-21T15:12:50.583Z"
     },
     "v2fly_openai": {
-      "source_kind": "upstream",
       "source_name": "v2fly_openai",
-      "selected_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/openai",
-      "last_modified": "",
-      "etag": "\"df14edcdf0b33ba2410173454600389c6f87a0ae1c3cfda9e2237933b3bfb96c\"",
-      "upstream_updated": "",
+      "source_kind": "upstream",
       "raw_count": "18",
-      "commit_sha": "b3bae7de8f6681f8ee92500ad6a66f97df607a4e",
-      "commit_date": "2026-01-28T05:07:34Z",
-      "commit_message": "Update category-ads (#3222)\n\n* remove ads attr from openaicom.imgix.net\n\nimgix.net is serving for pictures, not ads/tracking\n\n* category-ads: include more ad domains"
+      "signal": "2026-01-28T05:07:34Z"
     },
     "v2fly_anthropic": {
-      "source_kind": "upstream",
       "source_name": "v2fly_anthropic",
-      "selected_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic",
-      "last_modified": "",
-      "etag": "\"37bb7f064d9d31e5cf8289bcc3b273f83f12d2d3239d7ca01bd69b1acb0b5ea8\"",
-      "upstream_updated": "",
+      "source_kind": "upstream",
       "raw_count": "7",
-      "commit_sha": "235988ffe4d6877a89d9289f581599782f89b3bb",
-      "commit_date": "2026-03-12T07:14:55Z",
-      "commit_message": "anthropic: add clau.de (#3350)"
+      "signal": "2026-03-12T07:14:55Z"
     },
     "v2fly_perplexity": {
-      "source_kind": "upstream",
       "source_name": "v2fly_perplexity",
-      "selected_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity",
-      "last_modified": "",
-      "etag": "\"b1a962a6babd2471c715c27715818d95dd780a458467edd9e59c674a37858bb0\"",
-      "upstream_updated": "",
+      "source_kind": "upstream",
       "raw_count": "5",
-      "commit_sha": "48eb6167795e3dc18ebd91b0320b963172ac1a9a",
-      "commit_date": "2026-02-27T05:02:30Z",
-      "commit_message": "perplexity: add ppl-ai-file-upload.s3.amazonaws.com (#3307)"
+      "signal": "2026-02-27T05:02:30Z"
     },
     "v2fly_xai": {
-      "source_kind": "upstream",
       "source_name": "v2fly_xai",
-      "selected_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xai",
-      "last_modified": "",
-      "etag": "\"0667b025da2ede66232b6282e106c85999df8d0f875545728cd4cb7ee2b536db\"",
-      "upstream_updated": "",
+      "source_kind": "upstream",
       "raw_count": "3",
-      "commit_sha": "d82bf77ab8f472fa529c54db87842eb543d23488",
-      "commit_date": "2025-11-30T07:40:10Z",
-      "commit_message": "Add more AI domains (#2996)\n\n* meta: add llama.com\n\n* xai: add grok.x.com\n\n* category-ai-cn: add metaso domains"
+      "signal": "2025-11-30T07:40:10Z"
     },
     "v2fly_deepseek": {
-      "source_kind": "upstream",
       "source_name": "v2fly_deepseek",
-      "selected_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/deepseek",
-      "last_modified": "",
-      "etag": "\"08d5c273b1d13d8a0cc37765b65d1ef904a694f622803769c4afc211b713808a\"",
-      "upstream_updated": "",
+      "source_kind": "upstream",
       "raw_count": "1",
-      "commit_sha": "f923445f1a3deba19b2bd3a0cccbfa9db80c1ce4",
-      "commit_date": "2025-02-23T14:14:04Z",
-      "commit_message": "Add deepseek (#2536)"
+      "signal": "2025-02-23T14:14:04Z"
     },
     "v2fly_groq": {
-      "source_kind": "upstream",
       "source_name": "v2fly_groq",
-      "selected_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/groq",
-      "last_modified": "",
-      "etag": "\"7d4d1773cc041fde1e1d4b7408cc00091f97b684d8cbb830f680c057fe06fd66\"",
-      "upstream_updated": "",
+      "source_kind": "upstream",
       "raw_count": "1",
-      "commit_sha": "d72cc079f79b30a85c575e5cb4d483bc75264af9",
-      "commit_date": "2025-02-06T01:14:08Z",
-      "commit_message": "add groq (#2512)"
+      "signal": "2025-02-06T01:14:08Z"
     },
     "v2fly_huggingface": {
-      "source_kind": "upstream",
       "source_name": "v2fly_huggingface",
-      "selected_url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huggingface",
-      "last_modified": "",
-      "etag": "\"ed61ba826a3543131e5551a9df30ccf6304881f84f4c3aeb3cf7f34bbc1b06a8\"",
-      "upstream_updated": "",
+      "source_kind": "upstream",
       "raw_count": "3",
-      "commit_sha": "a8276ff7fc7613f6ad50bcc05db8379c4acd7390",
-      "commit_date": "2025-11-22T10:38:31Z",
-      "commit_message": "huggingface: add hf.space (#2971)\n\nClose #2970"
+      "signal": "2025-11-22T10:38:31Z"
     },
     "official.openai.aggressive_seed": {
+      "source_name": "official.openai.aggressive_seed",
       "source_kind": "static_seed",
-      "raw_count": "52"
+      "raw_count": "52",
+      "signal": ""
     },
     "official.google_ai.aggressive_seed": {
+      "source_name": "official.google_ai.aggressive_seed",
       "source_kind": "static_seed",
-      "raw_count": "33"
+      "raw_count": "33",
+      "signal": ""
     },
     "official.anthropic.aggressive_seed": {
+      "source_name": "official.anthropic.aggressive_seed",
       "source_kind": "static_seed",
-      "raw_count": "6"
+      "raw_count": "6",
+      "signal": ""
     },
     "official.xai_x.aggressive_seed": {
+      "source_name": "official.xai_x.aggressive_seed",
       "source_kind": "static_seed",
-      "raw_count": "34"
+      "raw_count": "34",
+      "signal": ""
     },
     "official.perplexity.aggressive_seed": {
+      "source_name": "official.perplexity.aggressive_seed",
       "source_kind": "static_seed",
-      "raw_count": "5"
+      "raw_count": "5",
+      "signal": ""
     },
     "official.other_ai.aggressive_seed": {
+      "source_name": "official.other_ai.aggressive_seed",
       "source_kind": "static_seed",
-      "raw_count": "31"
+      "raw_count": "31",
+      "signal": ""
     }
   },
   "family_sources": {

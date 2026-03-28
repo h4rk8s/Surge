@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-03-28T08:04:48+00:00",
+  "repo_seed_files": [
+    "Custom/ChatGPT.refined.list",
+    "Custom/GoogleAI.refined.list",
+    "Custom/AI.refined.list",
+    "Custom/Twitter.refined.list",
+    "Custom/AI_Custom.list"
+  ],
+  "upstream_urls": {
+    "blackmatrix_openai": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/OpenAI/OpenAI.list",
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list"
+    ],
+    "blackmatrix_claude": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Claude/Claude.list",
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list"
+    ],
+    "blackmatrix_twitter": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Surge/Twitter/Twitter.list",
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list"
+    ],
+    "skk_ai": [
+      "https://ruleset.skk.moe/List/non_ip/ai.conf"
+    ]
+  },
+  "counts": {
+    "openai.strict.list": 24,
+    "google_ai.strict.list": 24,
+    "anthropic.strict.list": 5,
+    "grok_x.strict.list": 18,
+    "perplexity.strict.list": 1,
+    "other_ai.strict.list": 6,
+    "ai_bundle.strict.list": 78
+  }
+}

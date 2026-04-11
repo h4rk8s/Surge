@@ -19,6 +19,7 @@ DOMAIN-SUFFIX,diabrowser.com
 DOMAIN-SUFFIX,diabrowser.engineering
 DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,flowith.io
+DOMAIN-SUFFIX,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,glama.ai
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,hf.co
@@ -27,12 +28,17 @@ DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,llama.com
 DOMAIN-SUFFIX,lmsys.org
 DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
+DOMAIN-SUFFIX,qpoe.com
 DOMAIN-SUFFIX,replicate.com
 DOMAIN-SUFFIX,smithery.ai
 DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,windsurf-telemetry.codeium.com
+DOMAIN-SUFFIX,windsurf.ai
+DOMAIN-SUFFIX,windsurf.build
 DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,you.com

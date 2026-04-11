@@ -1,6 +1,6 @@
 {
   "mode": "aggressive",
-  "generated_at": "2026-03-28T09:47:08+00:00",
+  "generated_at": "2026-04-11T03:05:17+00:00",
   "repo_seed_files": [
     "Custom/ChatGPT.refined.list",
     "Custom/GoogleAI.refined.list",
@@ -14,26 +14,14 @@
       "https://raw.githubusercontent.com/SukkaW/Surge/master/Source/non_ip/ai.conf",
       "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/ai.conf"
     ],
-    "v2fly_openai": [
-      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/openai"
+    "metacubex_ai_bundle": [
+      "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list"
     ],
-    "v2fly_anthropic": [
-      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic"
+    "dustinwin_ai": [
+      "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/mihomo-ruleset/ai.list"
     ],
-    "v2fly_perplexity": [
-      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity"
-    ],
-    "v2fly_xai": [
-      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xai"
-    ],
-    "v2fly_deepseek": [
-      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/deepseek"
-    ],
-    "v2fly_groq": [
-      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/groq"
-    ],
-    "v2fly_huggingface": [
-      "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huggingface"
+    "viewer12_overseas_ai": [
+      "https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Surge/OverseasAI/OverseasAI.list"
     ]
   },
   "source_status": {
@@ -73,47 +61,23 @@
       "raw_count": "50",
       "signal": "2026-03-21T15:12:50.583Z"
     },
-    "v2fly_openai": {
-      "source_name": "v2fly_openai",
+    "metacubex_ai_bundle": {
+      "source_name": "metacubex_ai_bundle",
       "source_kind": "upstream",
-      "raw_count": "18",
-      "signal": "2026-01-28T05:07:34Z"
+      "raw_count": "133",
+      "signal": "2026-04-10T23:05:46Z"
     },
-    "v2fly_anthropic": {
-      "source_name": "v2fly_anthropic",
+    "dustinwin_ai": {
+      "source_name": "dustinwin_ai",
       "source_kind": "upstream",
-      "raw_count": "7",
-      "signal": "2026-03-12T07:14:55Z"
+      "raw_count": "146",
+      "signal": ""
     },
-    "v2fly_perplexity": {
-      "source_name": "v2fly_perplexity",
+    "viewer12_overseas_ai": {
+      "source_name": "viewer12_overseas_ai",
       "source_kind": "upstream",
-      "raw_count": "5",
-      "signal": "2026-02-27T05:02:30Z"
-    },
-    "v2fly_xai": {
-      "source_name": "v2fly_xai",
-      "source_kind": "upstream",
-      "raw_count": "3",
-      "signal": "2025-11-30T07:40:10Z"
-    },
-    "v2fly_deepseek": {
-      "source_name": "v2fly_deepseek",
-      "source_kind": "upstream",
-      "raw_count": "1",
-      "signal": "2025-02-23T14:14:04Z"
-    },
-    "v2fly_groq": {
-      "source_name": "v2fly_groq",
-      "source_kind": "upstream",
-      "raw_count": "1",
-      "signal": "2025-02-06T01:14:08Z"
-    },
-    "v2fly_huggingface": {
-      "source_name": "v2fly_huggingface",
-      "source_kind": "upstream",
-      "raw_count": "3",
-      "signal": "2025-11-22T10:38:31Z"
+      "raw_count": "491",
+      "signal": "2026-04-10T04:37:41Z"
     },
     "official.openai.aggressive_seed": {
       "source_name": "official.openai.aggressive_seed",
@@ -124,13 +88,13 @@
     "official.google_ai.aggressive_seed": {
       "source_name": "official.google_ai.aggressive_seed",
       "source_kind": "static_seed",
-      "raw_count": "33",
+      "raw_count": "39",
       "signal": ""
     },
     "official.anthropic.aggressive_seed": {
       "source_name": "official.anthropic.aggressive_seed",
       "source_kind": "static_seed",
-      "raw_count": "6",
+      "raw_count": "13",
       "signal": ""
     },
     "official.xai_x.aggressive_seed": {
@@ -157,59 +121,70 @@
       "official.openai.aggressive_seed",
       "Custom/ChatGPT.refined.list",
       "Custom/AI.refined.list",
-      "v2fly_openai",
-      "sukka_ai"
+      "sukka_ai",
+      "metacubex_ai_bundle",
+      "dustinwin_ai",
+      "viewer12_overseas_ai"
     ],
     "google_ai": [
       "official.google_ai.aggressive_seed",
       "Custom/GoogleAI.refined.list",
       "Custom/AI.refined.list",
-      "sukka_ai"
+      "sukka_ai",
+      "metacubex_ai_bundle",
+      "dustinwin_ai",
+      "viewer12_overseas_ai"
     ],
     "anthropic": [
       "official.anthropic.aggressive_seed",
       "Custom/AI.refined.list",
-      "v2fly_anthropic",
-      "sukka_ai"
+      "sukka_ai",
+      "metacubex_ai_bundle",
+      "dustinwin_ai",
+      "viewer12_overseas_ai"
     ],
     "grok_x": [
       "official.xai_x.aggressive_seed",
       "Custom/Twitter.refined.list",
       "Custom/AI.refined.list",
-      "v2fly_xai",
-      "sukka_ai"
+      "sukka_ai",
+      "metacubex_ai_bundle",
+      "dustinwin_ai",
+      "viewer12_overseas_ai"
     ],
     "perplexity": [
       "official.perplexity.aggressive_seed",
       "Custom/AI.refined.list",
-      "v2fly_perplexity",
-      "sukka_ai"
+      "sukka_ai",
+      "metacubex_ai_bundle",
+      "dustinwin_ai",
+      "viewer12_overseas_ai"
     ],
     "other_ai": [
       "official.other_ai.aggressive_seed",
       "Custom/AI.refined.list",
-      "v2fly_deepseek",
-      "v2fly_groq",
-      "v2fly_huggingface",
-      "sukka_ai"
+      "sukka_ai",
+      "metacubex_ai_bundle",
+      "dustinwin_ai",
+      "viewer12_overseas_ai"
     ]
   },
   "counts": {
-    "openai.strict.list": 60,
-    "google_ai.strict.list": 33,
-    "anthropic.strict.list": 8,
+    "openai.strict.list": 62,
+    "google_ai.strict.list": 49,
+    "anthropic.strict.list": 15,
     "grok_x.strict.list": 35,
     "perplexity.strict.list": 5,
-    "other_ai.strict.list": 35,
-    "ai_bundle.strict.list": 176
+    "other_ai.strict.list": 41,
+    "ai_bundle.strict.list": 206
   },
   "hashes": {
-    "openai.strict.list": "89bdfc07b7b3dd350b22663fbf3135eb76016a54dda02f2c90f228d6754fb479",
-    "google_ai.strict.list": "74a4b6b0aca6d9dd7892d88c7a217547d24f6e6f66982c01895582069e26246e",
-    "anthropic.strict.list": "7f493e8e51c1932d73f9d9c3cbd782e56f271bcc528c3aa71e0153c1ba99acc8",
+    "openai.strict.list": "0292a583fa970b333b54f531cc6c282e3b2ced233fe6c49a6d87b751fe1aa5e8",
+    "google_ai.strict.list": "bc5a3f3113ea6c812cdc76da33d8332fb1877eef25985cc522e974dc45ee14a1",
+    "anthropic.strict.list": "add63f64b64d3de66c88c4e11911ddf7da162fe7ff387bb8fef18c721de16e3c",
     "grok_x.strict.list": "971db788458af59390ab57241c6150792ade7eeafdef740df5ff8d4a41d8403c",
     "perplexity.strict.list": "037a704fdd473c18cab9cdde6b72f96072c7e88f993a939fdea684e09c6de93b",
-    "other_ai.strict.list": "88d6941c1e16067f3b488b04b1b985a3ee4fe4c863d8af2d1e3a989cb26a58fc",
-    "ai_bundle.strict.list": "0376e0953b0e5dd106d558c25e9876db780fb7f38d236dad2fd4f27db6cdd227"
+    "other_ai.strict.list": "5345151a1013a95d2a2002383369218b199314a6a033862dae6c337c88074f59",
+    "ai_bundle.strict.list": "4975e8c5a966bf55a7ed6391770f3b4109e91e1fd698eeb69d3ae4bfbb4cc07f"
   }
 }

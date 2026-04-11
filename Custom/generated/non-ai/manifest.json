@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T03:52:06+00:00",
+  "generated_at": "2026-04-11T03:53:54+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -304,31 +304,31 @@
       "source_name": "non_ai__AmazonCN.list",
       "source_kind": "upstream",
       "raw_count": "47",
-      "signal": "2024-01-08 16:03:00"
+      "signal": "2024-02-02T17:55:24Z"
     },
     "non_ai__CloudflareCN.list": {
       "source_name": "non_ai__CloudflareCN.list",
       "source_kind": "upstream",
       "raw_count": "14",
-      "signal": "2024-01-08 16:02:53"
+      "signal": "2024-02-02T17:55:24Z"
     },
     "non_ai__Download.list": {
       "source_name": "non_ai__Download.list",
       "source_kind": "upstream",
       "raw_count": "20",
-      "signal": "2025-06-06 09:17:01"
+      "signal": "2025-06-17T07:19:38Z"
     },
     "non_ai__GoogleCN.list": {
       "source_name": "non_ai__GoogleCN.list",
       "source_kind": "upstream",
       "raw_count": "29",
-      "signal": ""
+      "signal": "2023-03-23T06:47:56Z"
     },
     "non_ai__ChinaIPs.list": {
       "source_name": "non_ai__ChinaIPs.list",
       "source_kind": "upstream",
       "raw_count": "22881",
-      "signal": "2026-04-10 02:24:36"
+      "signal": "2026-04-09T18:28:57Z"
     },
     "non_ai__ChinaDomain.list": {
       "source_name": "non_ai__ChinaDomain.list",
@@ -377,42 +377,42 @@
     "ChinaDomain.list": 117940
   },
   "hashes": {
-    "AdGuard.list": "538d773976c45b113037af8f015891b53525ad70cde9110708f2cf2361905567",
-    "Hijacking.list": "f5dea2b4e88f21b86fd0f2c2011018f366134c9058b904d362ee33f3b75e10cf",
-    "BlockHttpDNS.list": "3ace50f1b64802b1873372b2fbdd278ec8834cfe64389925889fde95b440156c",
-    "Privacy.list": "fe11694792d7a62aa8ba97f1c5d03b7ef2b8d1bfaaf8fbf040a2d7db852c5ede",
-    "Apple.list": "000c420980c14441d37f80df02a217fcf2a1b1b8d218158ef907170de8fee000",
-    "GitHub.list": "c98e3f9fb7348391f63a4db74e11987de3a1d6b64ab8231d9d4565dd44b8a064",
-    "Google.list": "8a8e785ee191ce879b1517f99bfdb37ac591fa80aa30bcae3d07102f76a18de8",
-    "OneDrive.list": "e200c6024a5dd5060dbcae383e88badc9455c48ae530908a3827ad08ac6bd972",
-    "Microsoft.list": "8c577f106d84c16477c35ee6da9ee08e72ebaaf1a3c7c39d98937ea8dd1c6945",
-    "Amazon.list": "d710bb5d069811ec5ba76df38e3d113bc30ca4192475c0f10613722c222aa375",
-    "AmazonIP.list": "aabb89bf2aa8fc11dbcb9add59cfe14cefb92f1692730aa52858490ebd22d7ed",
-    "Jetbrains.list": "bd19b14489d20fb0b0205908b89149938f3b01411a3c4ca3bee5f1803b436f93",
-    "Cloudflare.list": "9a48ffcca76e48e8d5b2ba88c0719a04e499a0656bde573390743d04d7aa26f4",
-    "Telegram.list": "12b1ffa58823a1ae024122a190750db066d154d9391cd777b21e134852bb189b",
-    "Discord.list": "d963b035a7a92e0bab224fe4ba4684a060aade20e491e96b461f84408dea6dc1",
-    "Reddit.list": "72a283825f9418f153c66507b10aede5c2cadaa1b22676bf63ab8404aba7fe8e",
-    "Instagram.list": "c9c2dd58ba9215374b43d5ea69a31dc51b5f43dc73d4e6412812e94b94ac022b",
-    "Threads.list": "b1a6a2f7d1fe82b13ac51ce1a3aff3605b1d7b827cd3c5bf07dc415b7aeb2e57",
-    "Spotify.list": "0fae18ed7cc63bd4cd1eb7b2f9581eb169209563167171549617726273ef72c1",
-    "YouTube.list": "75c263155980d6ca37c386c52cc1392ee55fa30ffae87f09e934f8e118d6644a",
-    "YouTubeMusic.list": "33b390c38c2ceaa68d209fb361991a4f2e8a7e58be6113e58b4c5e999e5b6650",
-    "TikTok.list": "f3913a5f4e916ade7ea132a684828604a7de03cd6902d615ab648a0d6699c9e7",
-    "Netflix.list": "6684ff454f2385ce393c8f6d4f5a2f037b806904f4a3dcce86126e1bc548646b",
-    "HBO.list": "76018e8594cfd161ee9bcee0b1f434e4119974ca45bf54e52fa13a6357816c68",
-    "Disney.list": "1bb1aa8415bce8ef3116391fd8308e6042a6d222272f4f59db11df96c51a7690",
-    "GlobalMedia.list": "ef2e200964f268b6e31e34a9bf1e0600c9c1fbb6a6d4e812234b401324ad4fa9",
-    "Porn.list": "bfc6b3bfdad3d017d8318eb1ceb00c66c1d6e8eb7e51a6bf54f0c102eeca8a87",
-    "Proxy.list": "878d8fc8a87c4e07d227e9bda27c3ccc45ae7d794f9dce2075bdca107de4bfeb",
-    "Unblocking.list": "798ff3e3e9462d796b21640228bf77f2ca2abda6195b79b26555e46338070d2f",
-    "Direct.list": "c134db17684deb0bad1e15551458526385f9bcc4cac75ce87fc93f161c1775d5",
-    "Lan.list": "83a7b892fc9f263a87be2e2af52f17a836e1601f95af2d35bb1b7d432d785a40",
-    "AmazonCN.list": "8e6d41c30fd1567723f806fe39dde467be89426e9c30c8528bc7a0c20a3f4576",
-    "CloudflareCN.list": "da6815cb709e24e8bbcd934bc770fdf9ba1fa9fe8fc96f62c0d4b6aa9f7d12aa",
-    "Download.list": "cfcb7e8941554a88336f8fa29deb13db421e90d8f9bfb4f32f36cff816d865bc",
-    "GoogleCN.list": "75e51952584121526004f924e55fc1c3f7ac74b2389c4bf596294acf69107e08",
-    "ChinaIPs.list": "7169ac5ca6112c899d1a522e11ba7ceb34ff72f957179b827fb02bab5dfef996",
-    "ChinaDomain.list": "04319b0a7aedae9be07c92d4a5d894a547e2bc8c92990f70655c0d92d527e83c"
+    "AdGuard.list": "43940f3c8f81bfb5ee71d3d85c588904072a391b7da0c54a4f8f82ed0dea9ac5",
+    "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
+    "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
+    "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",
+    "Apple.list": "fc278afe42aa910266b3a054f16526c9602e8d0cf226bafa844373a5433c7310",
+    "GitHub.list": "12921af499e87d103af5135ad7764aea4589ae59ad2add4b87e6d0550c607ec9",
+    "Google.list": "0d595fceca2705f85c16b288570522486443278ecd67fd078217e72043d3895b",
+    "OneDrive.list": "3ced2af62ea45c41d3f1073bebbae877d3da037decb156172a739cae3367be2c",
+    "Microsoft.list": "836d55f4fcf1e87804dc425234985a2907225da34da30dee3036713ea6740e6d",
+    "Amazon.list": "456cfe08c1a0025395b88a8c0a0ca79f2937c719135ed1b4638157012c70979e",
+    "AmazonIP.list": "da928cf1be4c7df3682903fc377bb8bfcb0350070cf4d7f289e10f7760e0eebf",
+    "Jetbrains.list": "faa75e48e18aeafa9ac3b68cdd738b21527df66ec597409c912c44ce233c21e8",
+    "Cloudflare.list": "39e8cd4b6c3ac3e3d2300f84993a6f260c5d716954fa581aee2b95d1424ed4f4",
+    "Telegram.list": "77763b22c842572be05feb5c3e74250cd2c2b3ca0ed4de2c5ef44f003d6ca002",
+    "Discord.list": "6d41d5b2436ca1df7e4cea2ea834fe4fc27a3012ff5abbedbb3bdf6210ad5dfa",
+    "Reddit.list": "6f7818470991599ce08ad051f7dea89b88de57a4b09f18a15e95e020a26722ca",
+    "Instagram.list": "cc982beed22c21c501f654b11a4c0aa337671c133c7df7f7b215b0a23da96e82",
+    "Threads.list": "9b81c5a4999018351fb0cb2be565461c6e2806062cf49f59bcacd3f3d7699138",
+    "Spotify.list": "76a35754e8198465f66f65778b898c23e38dfc6d76a2daca598593f4a0b2e9b8",
+    "YouTube.list": "53a6cbb8b59e41ac6ece3340531af322fd0b115babf913b2191d0c2a5a78220a",
+    "YouTubeMusic.list": "141e255f8ae034345a6ff55c862d4bd2e5ed541710e027e8031c94b00f797f79",
+    "TikTok.list": "8f00a36ac18c5040f5738058a0b990c69968ba9bd58f92ee087b1705e07a2493",
+    "Netflix.list": "5a42e2db2086e64e5266536f8066a1bac84fd173b806d615e7f109186710cff1",
+    "HBO.list": "917cb38433f0fad19fd51c25a163961052275481b3549b603a7024eebcdff6b0",
+    "Disney.list": "afe046f58964d75f930cbe461b5684a5fcd44de256b2bbde705e3c851d7e3de9",
+    "GlobalMedia.list": "d98712a889fa9af3c6c5e5507ea2cfed08c8dd0dfd04c651dc3baba423eb6784",
+    "Porn.list": "bec959af66d5fffca6e90a1b4eabacf0896081b1cb562c696e712690b7f2acdb",
+    "Proxy.list": "14df36f37e00b1e24b3deb47cc30f6ffaf86982d8a892d925b7fed3f6839452c",
+    "Unblocking.list": "b7bc71902f64a716a15b9050da6dff15ea38f56a2e8ec9b7895b13b0593a84ee",
+    "Direct.list": "e175747cab98e3f0797409a7f87ea98f6cbdc7e74a7d14ab879c2bb08500e834",
+    "Lan.list": "66485762cebc953af22ee071e84697dd09255354e91d957bb110ef22a8afd32a",
+    "AmazonCN.list": "a68c6bcdaf783dd06c21bac25306e00623ae4e428185d485a160bbd494bdc0dd",
+    "CloudflareCN.list": "4c5384c22519135ceb321e8a2ae393ef931749710d72c4f6ec80eabcf506d6a8",
+    "Download.list": "f7bbb19a6a7ee5cad6f7b3f0587a2218781aeceefc5606d032cdfe69ccf70a0b",
+    "GoogleCN.list": "2518b7a08c77fb9b10df44ebf5bb51276b857e149f0a3122cb6da8ed2a5dc752",
+    "ChinaIPs.list": "33405ab6d4bac4c7f5e469a486b17f934745692c1fae0d64169c1ee1976b2059",
+    "ChinaDomain.list": "cff5bd003ae276ef62b70450ff4d8749d239aeae436b1cab6da2a8132e551606"
   }
 }

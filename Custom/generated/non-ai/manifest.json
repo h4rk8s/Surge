@@ -1,0 +1,418 @@
+{
+  "generated_at": "2026-04-11T03:49:32+00:00",
+  "mirrors": {
+    "AdGuard.list": [
+      "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
+    ],
+    "Hijacking.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Hijacking/Hijacking.list"
+    ],
+    "BlockHttpDNS.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BlockHttpDNS/BlockHttpDNS.list"
+    ],
+    "Privacy.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Privacy/Privacy_All_No_Resolve.list"
+    ],
+    "Apple.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple_All_No_Resolve.list"
+    ],
+    "GitHub.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list"
+    ],
+    "Google.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list"
+    ],
+    "OneDrive.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list"
+    ],
+    "Microsoft.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list"
+    ],
+    "Amazon.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Amazon/Amazon.list"
+    ],
+    "AmazonIP.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AmazonIP/AmazonIP.list"
+    ],
+    "Jetbrains.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Jetbrains/Jetbrains.list"
+    ],
+    "Cloudflare.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflare/Cloudflare.list"
+    ],
+    "Telegram.list": [
+      "https://raw.githubusercontent.com/Coldvvater/Mononoke/master/Surge/Rules/Telegram.list"
+    ],
+    "Discord.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Discord/Discord.list"
+    ],
+    "Reddit.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Reddit/Reddit.list"
+    ],
+    "Instagram.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Instagram/Instagram.list"
+    ],
+    "Threads.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Threads/Threads.list"
+    ],
+    "Spotify.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list"
+    ],
+    "YouTube.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list"
+    ],
+    "YouTubeMusic.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTubeMusic/YouTubeMusic.list"
+    ],
+    "TikTok.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list"
+    ],
+    "Netflix.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+    ],
+    "HBO.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBO/HBO.list"
+    ],
+    "Disney.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list"
+    ],
+    "GlobalMedia.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia_All_No_Resolve.list"
+    ],
+    "Porn.list": [
+      "https://raw.githubusercontent.com/LM-Firefly/Rules/master/PROXY/Porn.list"
+    ],
+    "Proxy.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Proxy/Proxy_All_No_Resolve.list"
+    ],
+    "Unblocking.list": [
+      "https://raw.githubusercontent.com/chenyk1219/surge/release/Unblocking.list"
+    ],
+    "Direct.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Direct/Direct.list"
+    ],
+    "Lan.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Lan/Lan.list"
+    ],
+    "AmazonCN.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AmazonCN/AmazonCN.list"
+    ],
+    "CloudflareCN.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Cloudflarecn/Cloudflarecn.list"
+    ],
+    "Download.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Download/Download.list"
+    ],
+    "GoogleCN.list": [
+      "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list"
+    ],
+    "ChinaIPs.list": [
+      "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs_Resolve.list"
+    ],
+    "ChinaDomain.list": [
+      "https://raw.githubusercontent.com/chenyk1219/surge/release/ChinaDomain.list"
+    ]
+  },
+  "source_status": {
+    "non_ai__AdGuard.list": {
+      "source_name": "non_ai__AdGuard.list",
+      "source_kind": "upstream",
+      "raw_count": "165013",
+      "signal": ""
+    },
+    "non_ai__Hijacking.list": {
+      "source_name": "non_ai__Hijacking.list",
+      "source_kind": "upstream",
+      "raw_count": "228",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__BlockHttpDNS.list": {
+      "source_name": "non_ai__BlockHttpDNS.list",
+      "source_kind": "upstream",
+      "raw_count": "63",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__Privacy.list": {
+      "source_name": "non_ai__Privacy.list",
+      "source_kind": "upstream",
+      "raw_count": "39936",
+      "signal": "2025-12-21T16:23:05Z"
+    },
+    "non_ai__Apple.list": {
+      "source_name": "non_ai__Apple.list",
+      "source_kind": "upstream",
+      "raw_count": "1616",
+      "signal": "2026-04-09T18:28:57Z"
+    },
+    "non_ai__GitHub.list": {
+      "source_name": "non_ai__GitHub.list",
+      "source_kind": "upstream",
+      "raw_count": "31",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__Google.list": {
+      "source_name": "non_ai__Google.list",
+      "source_kind": "upstream",
+      "raw_count": "710",
+      "signal": "2025-12-21T16:23:05Z"
+    },
+    "non_ai__OneDrive.list": {
+      "source_name": "non_ai__OneDrive.list",
+      "source_kind": "upstream",
+      "raw_count": "18",
+      "signal": "2026-01-25T18:13:04Z"
+    },
+    "non_ai__Microsoft.list": {
+      "source_name": "non_ai__Microsoft.list",
+      "source_kind": "upstream",
+      "raw_count": "673",
+      "signal": "2025-12-21T16:23:05Z"
+    },
+    "non_ai__Amazon.list": {
+      "source_name": "non_ai__Amazon.list",
+      "source_kind": "upstream",
+      "raw_count": "206",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__AmazonIP.list": {
+      "source_name": "non_ai__AmazonIP.list",
+      "source_kind": "upstream",
+      "raw_count": "1521",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__Jetbrains.list": {
+      "source_name": "non_ai__Jetbrains.list",
+      "source_kind": "upstream",
+      "raw_count": "14",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__Cloudflare.list": {
+      "source_name": "non_ai__Cloudflare.list",
+      "source_kind": "upstream",
+      "raw_count": "65",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__Telegram.list": {
+      "source_name": "non_ai__Telegram.list",
+      "source_kind": "upstream",
+      "raw_count": "50",
+      "signal": "2025-09-13T12:53:39Z"
+    },
+    "non_ai__Discord.list": {
+      "source_name": "non_ai__Discord.list",
+      "source_kind": "upstream",
+      "raw_count": "29",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__Reddit.list": {
+      "source_name": "non_ai__Reddit.list",
+      "source_kind": "upstream",
+      "raw_count": "8",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__Instagram.list": {
+      "source_name": "non_ai__Instagram.list",
+      "source_kind": "upstream",
+      "raw_count": "4",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__Threads.list": {
+      "source_name": "non_ai__Threads.list",
+      "source_kind": "upstream",
+      "raw_count": "1",
+      "signal": "2024-02-02T17:55:24Z"
+    },
+    "non_ai__Spotify.list": {
+      "source_name": "non_ai__Spotify.list",
+      "source_kind": "upstream",
+      "raw_count": "31",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__YouTube.list": {
+      "source_name": "non_ai__YouTube.list",
+      "source_kind": "upstream",
+      "raw_count": "190",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__YouTubeMusic.list": {
+      "source_name": "non_ai__YouTubeMusic.list",
+      "source_kind": "upstream",
+      "raw_count": "5",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__TikTok.list": {
+      "source_name": "non_ai__TikTok.list",
+      "source_kind": "upstream",
+      "raw_count": "33",
+      "signal": "2025-12-21T16:23:05Z"
+    },
+    "non_ai__Netflix.list": {
+      "source_name": "non_ai__Netflix.list",
+      "source_kind": "upstream",
+      "raw_count": "1158",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__HBO.list": {
+      "source_name": "non_ai__HBO.list",
+      "source_kind": "upstream",
+      "raw_count": "50",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__Disney.list": {
+      "source_name": "non_ai__Disney.list",
+      "source_kind": "upstream",
+      "raw_count": "175",
+      "signal": "2025-12-21T16:23:05Z"
+    },
+    "non_ai__GlobalMedia.list": {
+      "source_name": "non_ai__GlobalMedia.list",
+      "source_kind": "upstream",
+      "raw_count": "2335",
+      "signal": "2026-04-07T18:27:17Z"
+    },
+    "non_ai__Porn.list": {
+      "source_name": "non_ai__Porn.list",
+      "source_kind": "upstream",
+      "raw_count": "4914",
+      "signal": "2025-10-19T05:12:41Z"
+    },
+    "non_ai__Proxy.list": {
+      "source_name": "non_ai__Proxy.list",
+      "source_kind": "upstream",
+      "raw_count": "6735",
+      "signal": "2026-04-09T18:28:57Z"
+    },
+    "non_ai__Unblocking.list": {
+      "source_name": "non_ai__Unblocking.list",
+      "source_kind": "upstream",
+      "raw_count": "177",
+      "signal": ""
+    },
+    "non_ai__Direct.list": {
+      "source_name": "non_ai__Direct.list",
+      "source_kind": "upstream",
+      "raw_count": "268",
+      "signal": "2025-12-21T16:23:05Z"
+    },
+    "non_ai__Lan.list": {
+      "source_name": "non_ai__Lan.list",
+      "source_kind": "upstream",
+      "raw_count": "138",
+      "signal": "2026-04-05T18:17:16Z"
+    },
+    "non_ai__AmazonCN.list": {
+      "source_name": "non_ai__AmazonCN.list",
+      "source_kind": "upstream",
+      "raw_count": "47",
+      "signal": "2024-02-02T17:55:24Z"
+    },
+    "non_ai__CloudflareCN.list": {
+      "source_name": "non_ai__CloudflareCN.list",
+      "source_kind": "upstream",
+      "raw_count": "14",
+      "signal": "2024-02-02T17:55:24Z"
+    },
+    "non_ai__Download.list": {
+      "source_name": "non_ai__Download.list",
+      "source_kind": "upstream",
+      "raw_count": "20",
+      "signal": "2025-06-17T07:19:38Z"
+    },
+    "non_ai__GoogleCN.list": {
+      "source_name": "non_ai__GoogleCN.list",
+      "source_kind": "upstream",
+      "raw_count": "29",
+      "signal": "2023-03-23T06:47:56Z"
+    },
+    "non_ai__ChinaIPs.list": {
+      "source_name": "non_ai__ChinaIPs.list",
+      "source_kind": "upstream",
+      "raw_count": "22881",
+      "signal": "2026-04-09T18:28:57Z"
+    },
+    "non_ai__ChinaDomain.list": {
+      "source_name": "non_ai__ChinaDomain.list",
+      "source_kind": "upstream",
+      "raw_count": "117941",
+      "signal": ""
+    }
+  },
+  "counts": {
+    "AdGuard.list": 165013,
+    "Hijacking.list": 228,
+    "BlockHttpDNS.list": 63,
+    "Privacy.list": 39936,
+    "Apple.list": 1616,
+    "GitHub.list": 31,
+    "Google.list": 710,
+    "OneDrive.list": 18,
+    "Microsoft.list": 673,
+    "Amazon.list": 206,
+    "AmazonIP.list": 1521,
+    "Jetbrains.list": 14,
+    "Cloudflare.list": 65,
+    "Telegram.list": 50,
+    "Discord.list": 29,
+    "Reddit.list": 8,
+    "Instagram.list": 4,
+    "Threads.list": 1,
+    "Spotify.list": 31,
+    "YouTube.list": 190,
+    "YouTubeMusic.list": 5,
+    "TikTok.list": 33,
+    "Netflix.list": 1158,
+    "HBO.list": 50,
+    "Disney.list": 175,
+    "GlobalMedia.list": 2335,
+    "Porn.list": 4914,
+    "Proxy.list": 6735,
+    "Unblocking.list": 177,
+    "Direct.list": 268,
+    "Lan.list": 138,
+    "AmazonCN.list": 47,
+    "CloudflareCN.list": 14,
+    "Download.list": 20,
+    "GoogleCN.list": 29,
+    "ChinaIPs.list": 22881,
+    "ChinaDomain.list": 117940
+  },
+  "hashes": {
+    "AdGuard.list": "2379c998e027e41f84ccf5f71cd289ec852c0bb3eeece777b7d1150aa6e2a622",
+    "Hijacking.list": "f29a7a58940a6d36847095b1c9bc3891e69d93b2f3cefb9ad6226ca6878faee4",
+    "BlockHttpDNS.list": "bcbbc46e5667912200c94afaf0c350ba855a3b5136cd858fae3fff2feb71f06e",
+    "Privacy.list": "a085031180e63b431f6b95d6f9959a856ebd46b9eaaa7fb4b94fd51c64ada45a",
+    "Apple.list": "6ec1436e6fb881c62a4b8a08b242993de15c490335421f541f8759da5909eca0",
+    "GitHub.list": "bff9a3afe60b8986bcdc90edb829c4f412075ee404065512c47722b1ab3fa30f",
+    "Google.list": "32b10260314f6ef05e266d3350bee53d18600705d1709a7640c7b6aa1ae61fc1",
+    "OneDrive.list": "3dcb52e1713bce7865b862c7b1a9ef6a5de2518230e014d2b1e9350cbeb1cd6b",
+    "Microsoft.list": "f41dd5668f0a523d38c6439dd36d7b149a94c9734ec3a50551f8c35b0138d965",
+    "Amazon.list": "7fbccac40ae09a3af7c0a89635be1cbaf48593bbda89128771dd858b425a9d61",
+    "AmazonIP.list": "191511c4f33ea9f2ac33df2b2ace13493f9496e4183be05a95f6df334cad8941",
+    "Jetbrains.list": "540e6a572430c97e86fb1c9391d0d701a297e03cb438c5c3e2bdce040d367ec7",
+    "Cloudflare.list": "dca59ad0559af31ca7c1a889ce3463a67ea632ca7ae46bb454110171f737617b",
+    "Telegram.list": "94b473b5b7043e8e11d3016d1eae4a018983b9bd3fb60cf999dc97cd2494b7f7",
+    "Discord.list": "ec1fb3331770884aff970160e08aee7f46aaf6fa8a92f70d090b85f1a5dafd46",
+    "Reddit.list": "7a8d405a0d9260dc8d256eeac0316d93942d71798bb57dd5be7759a2046d1e69",
+    "Instagram.list": "b5ef241e3e93b81226c7890a54a4da8c79d9c008637c7b3fc225d3e81ba32bb0",
+    "Threads.list": "e3cf087ec06a076f72429f9cc64a5ee5311beb2e947e485a84109db7d6189921",
+    "Spotify.list": "851f3321e0edc0b7ef08fabbabde289f9aaeaa527fb1bc8637ffad407321b85c",
+    "YouTube.list": "4be0d1e9eb2e83027c817c6b3b7cbc2a277a5b1fb807cf33537e13616e582642",
+    "YouTubeMusic.list": "f714d8587183d9234e6e37f3c7de6474b709dd5043a7363447397cb5aa921ea2",
+    "TikTok.list": "c35a46d74eecbd4f5d5716627541e8f235a75c132287806b4956e585b48c8e67",
+    "Netflix.list": "a9e83a0a6bfaddeae9619fc26d615d184b6fec2414fc733e138087c23a3b6518",
+    "HBO.list": "38fab6dda35c23a25a93588deceb715d4f77d02342e93ec1784853444192abc3",
+    "Disney.list": "a699de33b876caf4f29757c01b4dc13ab3e0e426ac8dd3facf6c56f76005642e",
+    "GlobalMedia.list": "3d6449849ef0f343476ed734ead5bcd3f26ce306f57d99197fc6c0faa5fb87c7",
+    "Porn.list": "47f315907ef2a3fcb34f46e2ccc7169694123830a87b910def995113bd4a3968",
+    "Proxy.list": "323108be8135397b2c3fa2e42bd43f558ba1c719ba2f3f7b072a700e77e22616",
+    "Unblocking.list": "0b6c5bfbff90af5ae4322a3a575bb97c21914cd905cbab7690a86c255eb76133",
+    "Direct.list": "48c29a4009563c2bb2aebc6cca47523ede5cd3823093ef29ab80a0cb8ce666e6",
+    "Lan.list": "f64d972b99671d4e5b897e38214b15fd687aae67913ad13a7d15195f22eea0f1",
+    "AmazonCN.list": "4aa6e16739c7824681a304dcb3bf06cff59e0072d8ec43a7e93afa76b701f596",
+    "CloudflareCN.list": "158eceda571dafc2ad5e67e6c569914e3a57adf84dd5a1c76c0d798de9a2816f",
+    "Download.list": "fea35abfd3cf644f57238b7f0888aa88c76e89ac956ee1d38111bbf2b66704d3",
+    "GoogleCN.list": "4c0fd43a7b2e1afcb6833c2cb7bee36090edea4d6fa9fc80be0f1f6bb7696556",
+    "ChinaIPs.list": "958c7fe9d78445c67782510a54a55adc0ab4be20c4d91239f2fef1b5c7c68660",
+    "ChinaDomain.list": "3bbb8623ee59e361077bb175d13462acb57457f1e1f5a2ee36ebd9e80051e0a4"
+  }
+}

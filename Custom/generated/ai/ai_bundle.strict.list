@@ -18,6 +18,7 @@ DOMAIN,cdn.usefathom.com
 DOMAIN,cdn.workos.com
 DOMAIN,challenges.cloudflare.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
+DOMAIN,clientstream.launchdarkly.com
 DOMAIN,cloudaicompanion.googleapis.com
 DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.googleapis.com
@@ -32,6 +33,7 @@ DOMAIN,images.workoscdn.com
 DOMAIN,js.stripe.com
 DOMAIN,jules.google.com
 DOMAIN,makersuite.google.com
+DOMAIN,mobile.launchdarkly.com
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
 DOMAIN,openai-api.arkoselabs.com

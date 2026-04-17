@@ -63,6 +63,7 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,browserinternal.com
 DOMAIN-SUFFIX,business.gemini.google
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud

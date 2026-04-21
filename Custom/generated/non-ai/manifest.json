@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T13:19:35+00:00",
+  "generated_at": "2026-04-21T13:20:49+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "163512",
+      "raw_count": "161876",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -196,7 +196,7 @@
       "source_name": "non_ai__Telegram.list",
       "source_kind": "upstream",
       "raw_count": "50",
-      "signal": "2025-09-13T12:53:39Z"
+      "signal": "2026-04-21T11:28:13Z"
     },
     "non_ai__Discord.list": {
       "source_name": "non_ai__Discord.list",
@@ -333,12 +333,12 @@
     "non_ai__ChinaDomain.list": {
       "source_name": "non_ai__ChinaDomain.list",
       "source_kind": "upstream",
-      "raw_count": "118013",
+      "raw_count": "119356",
       "signal": ""
     }
   },
   "counts": {
-    "AdGuard.list": 163512,
+    "AdGuard.list": 161876,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -374,10 +374,10 @@
     "Download.list": 20,
     "GoogleCN.list": 29,
     "ChinaIPs.list": 22861,
-    "ChinaDomain.list": 118012
+    "ChinaDomain.list": 119355
   },
   "hashes": {
-    "AdGuard.list": "2e8bafe11143c3ff263faaceb67c14ba337a1c058f3049bd3962eca73e3e6019",
+    "AdGuard.list": "02731dab283aec8650573b161a225a507cf25ab77e77eea96e7b0775d4b1b72c",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",
@@ -413,6 +413,6 @@
     "Download.list": "f7bbb19a6a7ee5cad6f7b3f0587a2218781aeceefc5606d032cdfe69ccf70a0b",
     "GoogleCN.list": "2518b7a08c77fb9b10df44ebf5bb51276b857e149f0a3122cb6da8ed2a5dc752",
     "ChinaIPs.list": "3988f9c1745104bfc248c5d7abeb94577d0437813e5522d48b2a3346624f3318",
-    "ChinaDomain.list": "4779db6d5801d926115fc07f7fcbc134ce15fa5ee9f6efe2a13abf7ea6f95359"
+    "ChinaDomain.list": "5d54b8ebbfa6a81123ed48123c9681a6ef4b9e1a28afdc2c509b7e0672679df2"
   }
 }

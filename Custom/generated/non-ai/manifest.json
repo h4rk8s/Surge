@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T13:38:28+00:00",
+  "generated_at": "2026-05-04T13:39:49+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "164991",
+      "raw_count": "165212",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -142,7 +142,7 @@
       "source_name": "non_ai__Apple.list",
       "source_kind": "upstream",
       "raw_count": "1616",
-      "signal": "2026-05-01T18:30:19Z"
+      "signal": "2026-05-03T18:25:22Z"
     },
     "non_ai__GitHub.list": {
       "source_name": "non_ai__GitHub.list",
@@ -327,18 +327,18 @@
     "non_ai__ChinaIPs.list": {
       "source_name": "non_ai__ChinaIPs.list",
       "source_kind": "upstream",
-      "raw_count": "22862",
-      "signal": "2026-05-01T18:30:19Z"
+      "raw_count": "22874",
+      "signal": "2026-05-03T18:25:22Z"
     },
     "non_ai__ChinaDomain.list": {
       "source_name": "non_ai__ChinaDomain.list",
       "source_kind": "upstream",
-      "raw_count": "114971",
+      "raw_count": "114904",
       "signal": ""
     }
   },
   "counts": {
-    "AdGuard.list": 164991,
+    "AdGuard.list": 165212,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -373,11 +373,11 @@
     "CloudflareCN.list": 14,
     "Download.list": 20,
     "GoogleCN.list": 29,
-    "ChinaIPs.list": 22862,
-    "ChinaDomain.list": 114970
+    "ChinaIPs.list": 22874,
+    "ChinaDomain.list": 114903
   },
   "hashes": {
-    "AdGuard.list": "ba196caf5740f00fe0e8b40967d33653d710b3bf564d26537c708547bda64e6d",
+    "AdGuard.list": "fe946b02e767cd3bdda83041e5e85a649657498699b88bb6984f19a927744150",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",
@@ -412,7 +412,7 @@
     "CloudflareCN.list": "4c5384c22519135ceb321e8a2ae393ef931749710d72c4f6ec80eabcf506d6a8",
     "Download.list": "f7bbb19a6a7ee5cad6f7b3f0587a2218781aeceefc5606d032cdfe69ccf70a0b",
     "GoogleCN.list": "2518b7a08c77fb9b10df44ebf5bb51276b857e149f0a3122cb6da8ed2a5dc752",
-    "ChinaIPs.list": "5f6f8a09a98d1f79a7edbc0898fe602d00f6dd745cbac64ee26161ae1dd58a48",
-    "ChinaDomain.list": "c08be6a6cfd54fac3b7f3d7e5596af3d31d81d39fef89c15c3c89fbf11b3d07d"
+    "ChinaIPs.list": "33d3d21de7410a61d52db3c5dc92e4235275817a738c190f8b33114a872bff1c",
+    "ChinaDomain.list": "043c3daf2eecb94885a89047ec3cbc2de1a472c1333269dd2be451e648613cec"
   }
 }

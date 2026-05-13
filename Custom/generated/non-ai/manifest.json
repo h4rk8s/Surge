@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T02:24:36+00:00",
+  "generated_at": "2026-05-13T02:25:45+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "163839",
+      "raw_count": "164044",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -333,12 +333,12 @@
     "non_ai__ChinaDomain.list": {
       "source_name": "non_ai__ChinaDomain.list",
       "source_kind": "upstream",
-      "raw_count": "113430",
+      "raw_count": "113402",
       "signal": ""
     }
   },
   "counts": {
-    "AdGuard.list": 163839,
+    "AdGuard.list": 164044,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -374,10 +374,10 @@
     "Download.list": 20,
     "GoogleCN.list": 29,
     "ChinaIPs.list": 22920,
-    "ChinaDomain.list": 113429
+    "ChinaDomain.list": 113401
   },
   "hashes": {
-    "AdGuard.list": "331ae4ac658240780b3591885f40652727c85a3e216a3b2fd664d89cb7069a7d",
+    "AdGuard.list": "1e3dc34f46f86040580d99323ca54eab97593a44a512b19003b2bacf89319e69",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",
@@ -413,6 +413,6 @@
     "Download.list": "f7bbb19a6a7ee5cad6f7b3f0587a2218781aeceefc5606d032cdfe69ccf70a0b",
     "GoogleCN.list": "2518b7a08c77fb9b10df44ebf5bb51276b857e149f0a3122cb6da8ed2a5dc752",
     "ChinaIPs.list": "e74e7ec00921511f54a787f68bf2d3fe32dffddd356b3b3abaaaaa6272f3e6ba",
-    "ChinaDomain.list": "f2708d90ae69c6e985651a8199e2e81747ba8a3fd3633b5bf23018c3e33d52bb"
+    "ChinaDomain.list": "2973a042e58b76552f62439e72766d3ab1d0bdaabc20a5bf49a1b71dfa2f61e0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "mode": "aggressive",
-  "generated_at": "2026-05-25T07:06:11+00:00",
+  "generated_at": "2026-05-26T01:06:50+00:00",
   "repo_seed_files": [
     "Custom/ChatGPT.refined.list",
     "Custom/GoogleAI.refined.list",
@@ -64,13 +64,13 @@
     "metacubex_ai_bundle": {
       "source_name": "metacubex_ai_bundle",
       "source_kind": "upstream",
-      "raw_count": "151",
-      "signal": "2026-05-24T23:34:29Z"
+      "raw_count": "152",
+      "signal": "2026-05-25T23:39:33Z"
     },
     "dustinwin_ai": {
       "source_name": "dustinwin_ai",
       "source_kind": "upstream",
-      "raw_count": "161",
+      "raw_count": "162",
       "signal": ""
     },
     "viewer12_overseas_ai": {

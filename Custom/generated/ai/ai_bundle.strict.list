@@ -109,8 +109,13 @@ DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,glama.ai
+DOMAIN-SUFFIX,grok-sandbox.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,groksupport.com
+DOMAIN-SUFFIX,groktpcontent.com
+DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,hf.space

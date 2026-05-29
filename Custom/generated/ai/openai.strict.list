@@ -57,6 +57,7 @@ DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-SUFFIX,workos.com
 DOMAIN-SUFFIX,workos.imgix.net
 DOMAIN-SUFFIX,workoscdn.com
+DOMAIN-KEYWORD,chatgpt-async-webps
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,openaicom-api
 DOMAIN-KEYWORD,stripe

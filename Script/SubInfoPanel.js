@@ -36,6 +36,17 @@
       default:     result = { title: "Panel", content: `未知 panel: ${panel}` };
     }
 
+    // 必须让 script 返回 icon + icon-color，否则 $done 会覆盖 panel.dconf 静态值导致图标消失
+    const visualMap = {
+      sub:  { icon: "paperplane.fill",               color: "#EF6D20" },
+      node: { icon: "bolt.horizontal.fill",          color: "#5AC8FA" },
+      net:  { icon: "wifi.router.fill",              color: "#5D84F8" },
+      sync: { icon: "arrow.triangle.2.circlepath",   color: "#DF4688" },
+    };
+    const v = visualMap[panel] || {};
+    if (!result.icon) result.icon = v.icon;
+    if (!result["icon-color"]) result["icon-color"] = v.color;
+
     return $done(result);
   } catch (e) {
     return $done({ title: args.title || "面板异常", content: String(e) });
@@ -58,7 +69,7 @@ function renderSub(headers, args) {
   // 第 1 行：已用百分比 ｜ 剩余字节
   // 第 2 行：重置天数 ｜ 到期天数
   const line1 = total > 0
-    ? `已用：${pct.toFixed(1)}%　｜　剩余：${bytesShort(total - used)}`
+    ? `已用：${pct.toFixed(1)}% · 剩余：${bytesShort(total - used)}`
     : `已用：${bytesShort(used)}`;
 
   const expDays = getExpireDaysLeft(info.expire);
@@ -66,7 +77,7 @@ function renderSub(headers, args) {
   const parts = [];
   if (resetDays != null) parts.push(`重置：${resetDays} 天`);
   if (expDays != null)   parts.push(`到期：${expDays} 天`);
-  const line2 = parts.join("　｜　");
+  const line2 = parts.join(" · ");
 
   return { title, content: [line1, line2].filter(Boolean).join("\n") };
 }
@@ -89,7 +100,7 @@ function renderNode(headers) {
   // 第 2 行：自家专线说明
   const pct = totalSum > 0 ? Math.round((okSum / totalSum) * 100) : 0;
   const line1 = totalSum > 0
-    ? `在线：${okSum} / ${totalSum}　｜　可用：${pct}%`
+    ? `在线：${okSum} / ${totalSum} · 可用：${pct}%`
     : "数据暂时获取不到";
   const line2 = "自家专线：sfo2 全 8 协议";
 
@@ -135,7 +146,7 @@ function renderSync(headers) {
   // 第 1 行：上次同步时间 ｜ 健康状态
   // 第 2 行：后端面板数
   const errOk = err.startsWith("0");
-  const line1 = `更新：${formatLastSync(lastSync)}　｜　${errOk ? "运行正常" : "有警告"}`;
+  const line1 = `更新：${formatLastSync(lastSync)} · ${errOk ? "运行正常" : "有警告"}`;
   const line2 = `机场后端：${mirrors} 个面板存活`;
 
   return { title, content: `${line1}\n${line2}` };

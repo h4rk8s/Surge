@@ -1,20 +1,21 @@
 /**
- * 面板脚本：订阅用量/到期展示（Surge）
- * 作者：h4rk8s（基于社区通用做法重写）
- * 用途：从订阅链接（建议为 subconverter 输出链接）读取响应头 `Subscription-Userinfo`
- *       展示用量、重置日与到期日。仅读取响应头，若 HEAD 失败将回退到 GET。
+ * 面板脚本：订阅用量/到期 + 自家扩展信息（Surge）
+ * 作者：h4rk8s
+ * 用途：
+ *   1) 拉 `url` 拿 `Subscription-Userinfo` header 展示流量/到期/重置
+ *   2) parse 自家扩展 X-* header（X-Active-Nodes / X-Top-Nodes / X-Last-Sync / X-Panel-Mirrors / X-Err-Status）
+ *   3) 并发拉 ip-api.com 拿出口公网 IP / ISP / 城市
+ *   4) 读 Surge 内置 $network 拿 WiFi SSID 或 cellular operator
  *
  * 参数（argument）：
- *   url=...           // 订阅完整链接（建议事先百分号编码）
- *   或 url_b64=...    // 订阅完整链接的 Base64（推荐以保护隐私）
- *   title=...         // 面板标题，默认：Sub Info
- *   reset_day=...     // 每月重置日（1-31），可选
- *   icon=...          // 面板图标，默认：tornado
- *   color=...         // 图标颜色 HEX，默认：#DF4688
- *   ua=...            // 请求 UA，默认：Shadowrocket/2.2.0
- *
- * 例：
- *   argument=url_b64=BASE64URL&title=MESL&reset_day=23&icon=tornado&color=#DF4688
+ *   url_b64=...         订阅链接 base64（推荐）
+ *   url=...             订阅链接（明文）
+ *   title=...           默认 "Sub Info"
+ *   reset_day=...       每月重置日 1-31
+ *   icon=...            默认 tornado
+ *   color=...           默认 #DF4688
+ *   ua=...              默认 Shadowrocket/2.2.0
+ *   show_extra=1        是否显示自家扩展行（节点/同步/出口/WiFi），默认 1
  */
 
 ;(async () => {
@@ -24,6 +25,7 @@
     const ua = args.ua || "Shadowrocket/2.2.0";
     const icon = args.icon || "tornado";
     const color = args.color || "#DF4688";
+    const showExtra = args.show_extra !== "0";
     const subUrl = resolveUrl(args);
 
     if (!subUrl) {
@@ -35,11 +37,22 @@
       });
     }
 
-    // 先 HEAD，只取响应头；失败则回退 GET。
-    let headers = await fetchHeaders(subUrl, ua);
-    if (!headers) headers = await fetchHeaders(subUrl, ua, true);
+    // 并发：sub headers + ip-api
+    const [headers, ipInfo] = await Promise.all([
+      fetchSubHeaders(subUrl, ua),
+      showExtra ? fetchIpInfo() : Promise.resolve(null),
+    ]);
 
-    const uiHeaderKey = findUserinfoHeaderKey(headers);
+    if (!headers) {
+      return $done({
+        title: panelTitle,
+        content: "无法获取订阅响应头",
+        icon: "exclamationmark.triangle",
+        "icon-color": "#CB1B45"
+      });
+    }
+
+    const uiHeaderKey = findHeaderKey(headers, "subscription-userinfo");
     if (!uiHeaderKey) {
       return $done({
         title: panelTitle,
@@ -64,28 +77,65 @@
     const pct = total > 0 ? (used / total) * 100 : NaN;
 
     const lines = [];
+
+    // ---- 核心三行：流量 / 提醒 / 到期 ----
     if (total > 0) {
-      lines.push(`用量：${bytesToSize(used)} / ${bytesToSize(total)}`);
+      lines.push(`流量：${bytesToSize(used)} / ${bytesToSize(total)} (${pct.toFixed(1)}%)`);
     } else {
-      lines.push(`用量：${bytesToSize(used)}`);
+      lines.push(`流量：${bytesToSize(used)}`);
     }
 
-    // 提醒与日期
     const expireDaysLeft = getExpireDaysLeft(info.expire);
     const resetDayLeft = args.reset_day ? getResetRemainingDays(parseInt(args.reset_day, 10)) : null;
 
     if (resetDayLeft != null && expireDaysLeft != null) {
-      lines.push(`提醒：${resetDayLeft}天后重置，${expireDaysLeft}天后到期`);
+      lines.push(`提醒：${resetDayLeft}天重置 · ${expireDaysLeft}天到期`);
     } else if (resetDayLeft != null) {
       lines.push(`提醒：${resetDayLeft}天后重置`);
     } else if (expireDaysLeft != null) {
       lines.push(`提醒：${expireDaysLeft}天后到期`);
-    } else if (!isNaN(pct)) {
-      lines.push(`提醒：已使用 ${pct.toFixed(1)}%`);
     }
 
     if (expireDaysLeft != null) {
       lines.push(`到期：${formatDateYMD(info.expire)}`);
+    }
+
+    // ---- 自家扩展：节点 / 同步 / 出口 / 网络 ----
+    if (showExtra) {
+      const activeNodes = headers[findHeaderKey(headers, "x-active-nodes")];
+      if (activeNodes) {
+        lines.push(`节点：${activeNodes}`);
+      }
+
+      const topNodes = headers[findHeaderKey(headers, "x-top-nodes")];
+      if (topNodes) {
+        lines.push(`专线：${topNodes}`);
+      }
+
+      const lastSync = headers[findHeaderKey(headers, "x-last-sync")];
+      if (lastSync) {
+        lines.push(`同步：${formatLastSync(lastSync)}`);
+      }
+
+      const panelMirrors = headers[findHeaderKey(headers, "x-panel-mirrors")];
+      if (panelMirrors) {
+        lines.push(`镜像：机场 ${panelMirrors} 个面板存活`);
+      }
+
+      const errStatus = headers[findHeaderKey(headers, "x-err-status")];
+      if (errStatus) {
+        const errIcon = errStatus.startsWith("0B") ? "✓" : "⚠️";
+        lines.push(`日志：${errIcon} ${errStatus}`);
+      }
+
+      if (ipInfo) {
+        lines.push(`出口：${ipInfo.country || ""} ${ipInfo.city || ""} · ${ipInfo.isp || "?"} · ${ipInfo.query || ""}`);
+      }
+
+      const network = describeNetwork();
+      if (network) {
+        lines.push(`网络：${network}`);
+      }
     }
 
     return $done({
@@ -126,32 +176,50 @@ function resolveUrl(args) {
   return null;
 }
 
-// HEAD 优先，仅取响应头；fallback=true 时改用 GET。
-function fetchHeaders(url, ua, fallback = false) {
+// 拉订阅 URL 响应头：HEAD 优先，失败 fallback GET Range:0-0
+function fetchSubHeaders(url, ua) {
   return new Promise(resolve => {
-    const req = { url, headers: { "User-Agent": ua } };
-    if (!fallback) req.method = "HEAD";
-    // GET 时尽量减少正文传输
-    if (fallback) req.headers["Range"] = "bytes=0-0";
+    const tryReq = (method) => {
+      const req = { url, headers: { "User-Agent": ua } };
+      if (method === "HEAD") req.method = "HEAD";
+      if (method === "GET") req.headers["Range"] = "bytes=0-0";
+      $httpClient.get(req, (err, resp) => {
+        if (err || !resp || !resp.headers) {
+          if (method === "HEAD") return tryReq("GET");
+          console.log(`fetchSubHeaders error: ${err || "no resp"}`);
+          return resolve(null);
+        }
+        resolve(resp.headers);
+      });
+    };
+    tryReq("HEAD");
+  });
+}
 
-    $httpClient.get(req, (err, resp) => {
-      if (err || !resp || !resp.headers) {
-        console.log(`fetchHeaders error: ${err || "no resp"}`);
-        return resolve(null);
-      }
-      resolve(resp.headers);
+// 拉 ip-api.com 拿出口公网 IP / 城市 / ISP
+function fetchIpInfo() {
+  return new Promise(resolve => {
+    $httpClient.get({
+      url: "http://ip-api.com/json?fields=status,country,city,isp,query&lang=zh-CN",
+      headers: { "User-Agent": "Surge-Panel" },
+    }, (err, resp, data) => {
+      if (err || !data) return resolve(null);
+      try {
+        const j = JSON.parse(data);
+        if (j.status === "success") return resolve(j);
+      } catch (_) {}
+      resolve(null);
     });
   });
 }
 
-function findUserinfoHeaderKey(headers) {
-  const keys = Object.keys(headers || {});
-  return keys.find(k => k.toLowerCase() === "subscription-userinfo");
+function findHeaderKey(headers, key) {
+  const target = key.toLowerCase();
+  return Object.keys(headers || {}).find(k => k.toLowerCase() === target);
 }
 
 function parseUserinfo(val) {
   if (!val) return null;
-  // 兼容 upload/download/total/expire=数字（整数或科学计数）
   const kvs = {};
   const re = /(\w+)=([\d.eE+-]+)/g;
   let m;
@@ -180,9 +248,7 @@ function getResetRemainingDays(resetDay) {
   const m = now.getMonth();
   const daysThisMonth = new Date(y, m + 1, 0).getDate();
   const rThis = Math.min(resetDay, daysThisMonth);
-
   if (rThis > today) return rThis - today;
-
   const daysNextMonth = new Date(y, m + 2, 0).getDate();
   const rNext = Math.min(resetDay, daysNextMonth);
   return (daysThisMonth - today) + rNext;
@@ -192,7 +258,7 @@ function getExpireDaysLeft(expire) {
   if (!expire) return null;
   let ts = Number(expire);
   if (!Number.isFinite(ts)) return null;
-  if (ts < 1e12) ts *= 1000; // 秒 -> 毫秒
+  if (ts < 1e12) ts *= 1000;
   const diff = Math.ceil((ts - Date.now()) / 86400000);
   return diff > 0 ? diff : null;
 }
@@ -202,13 +268,43 @@ function formatDateYMD(expire) {
   if (!Number.isFinite(ts)) return "未知日期";
   if (ts < 1e12) ts *= 1000;
   const d = new Date(ts);
-  const y = d.getFullYear();
-  const m = d.getMonth() + 1;
-  const day = d.getDate();
-  return `${y}年${m}月${day}日`;
+  return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日`;
 }
 
-// 兼容 atob（Surge/JS 环境不保证全局存在）
+// 把 ISO 时间戳渲染成 "今天 03:30" / "昨天 15:30" / "3 天前"
+function formatLastSync(iso) {
+  try {
+    const t = new Date(iso).getTime();
+    if (!Number.isFinite(t)) return iso;
+    const now = Date.now();
+    const diff = now - t;
+    const mins = Math.floor(diff / 60000);
+    if (mins < 1) return "刚刚";
+    if (mins < 60) return `${mins} 分钟前`;
+    const hours = Math.floor(mins / 60);
+    if (hours < 24) return `${hours} 小时前`;
+    const days = Math.floor(hours / 24);
+    return `${days} 天前`;
+  } catch (_) {
+    return iso;
+  }
+}
+
+// 描述当前网络：WiFi SSID 或 cellular operator
+function describeNetwork() {
+  try {
+    if (typeof $network === "undefined" || !$network) return null;
+    if ($network.wifi && $network.wifi.ssid) {
+      return `WiFi ${$network.wifi.ssid}`;
+    }
+    if ($network.cellular && $network.cellular.carrier) {
+      return `蜂窝 ${$network.cellular.carrier}`;
+    }
+  } catch (_) {}
+  return null;
+}
+
+// 兼容 atob
 function atobCompat(b64) {
   if (typeof atob === "function") return atob(b64);
   const buf = Buffer.from(b64, "base64");

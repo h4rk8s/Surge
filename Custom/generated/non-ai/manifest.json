@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-31T01:18:16+00:00",
+  "generated_at": "2026-06-01T01:19:06+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "164356",
+      "raw_count": "164703",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -142,7 +142,7 @@
       "source_name": "non_ai__Apple.list",
       "source_kind": "upstream",
       "raw_count": "1616",
-      "signal": "2026-05-29T18:59:29Z"
+      "signal": "2026-05-31T18:32:01Z"
     },
     "non_ai__GitHub.list": {
       "source_name": "non_ai__GitHub.list",
@@ -268,7 +268,7 @@
       "source_name": "non_ai__GlobalMedia.list",
       "source_kind": "upstream",
       "raw_count": "2335",
-      "signal": "2026-05-25T18:39:26Z"
+      "signal": "2026-05-31T18:32:01Z"
     },
     "non_ai__Porn.list": {
       "source_name": "non_ai__Porn.list",
@@ -279,8 +279,8 @@
     "non_ai__Proxy.list": {
       "source_name": "non_ai__Proxy.list",
       "source_kind": "upstream",
-      "raw_count": "6788",
-      "signal": "2026-05-29T18:59:29Z"
+      "raw_count": "6794",
+      "signal": "2026-05-31T18:32:01Z"
     },
     "non_ai__Unblocking.list": {
       "source_name": "non_ai__Unblocking.list",
@@ -327,8 +327,8 @@
     "non_ai__ChinaIPs.list": {
       "source_name": "non_ai__ChinaIPs.list",
       "source_kind": "upstream",
-      "raw_count": "22720",
-      "signal": "2026-05-29T18:59:29Z"
+      "raw_count": "22714",
+      "signal": "2026-05-31T18:32:01Z"
     },
     "non_ai__ChinaDomain.list": {
       "source_name": "non_ai__ChinaDomain.list",
@@ -338,7 +338,7 @@
     }
   },
   "counts": {
-    "AdGuard.list": 164356,
+    "AdGuard.list": 164703,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -365,7 +365,7 @@
     "Disney.list": 175,
     "GlobalMedia.list": 2335,
     "Porn.list": 4914,
-    "Proxy.list": 6788,
+    "Proxy.list": 6794,
     "Unblocking.list": 180,
     "Direct.list": 268,
     "Lan.list": 140,
@@ -373,11 +373,11 @@
     "CloudflareCN.list": 14,
     "Download.list": 20,
     "GoogleCN.list": 29,
-    "ChinaIPs.list": 22720,
+    "ChinaIPs.list": 22714,
     "ChinaDomain.list": 112854
   },
   "hashes": {
-    "AdGuard.list": "3bf85dce0f0498afbc7887b18c3a85fb8a76bb5dd3a3e957f943e4f5f3968e8d",
+    "AdGuard.list": "2bc95a06ebfa7fabbeb4b1a4610c5868db2b9f2e1796d981a98879181f2920eb",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",
@@ -404,7 +404,7 @@
     "Disney.list": "afe046f58964d75f930cbe461b5684a5fcd44de256b2bbde705e3c851d7e3de9",
     "GlobalMedia.list": "d98712a889fa9af3c6c5e5507ea2cfed08c8dd0dfd04c651dc3baba423eb6784",
     "Porn.list": "bec959af66d5fffca6e90a1b4eabacf0896081b1cb562c696e712690b7f2acdb",
-    "Proxy.list": "8feab55453cb3699a19ca1bc6e198629e0d8fedd26305f814e64f5601e38ba94",
+    "Proxy.list": "c9db1ecc0c43df36ba7e69590de545222a5d26127f32aef27fb268cfa09fec8a",
     "Unblocking.list": "0db04fb7b0269b2f788e8dae5dbab023528a1a52917098c094ff8a2d686e1283",
     "Direct.list": "e175747cab98e3f0797409a7f87ea98f6cbdc7e74a7d14ab879c2bb08500e834",
     "Lan.list": "4fb4d38a45896a166707958b9a2b95b149d89d8fa9bc1e3f58b3331a17f40a1e",
@@ -412,7 +412,7 @@
     "CloudflareCN.list": "4c5384c22519135ceb321e8a2ae393ef931749710d72c4f6ec80eabcf506d6a8",
     "Download.list": "f7bbb19a6a7ee5cad6f7b3f0587a2218781aeceefc5606d032cdfe69ccf70a0b",
     "GoogleCN.list": "2518b7a08c77fb9b10df44ebf5bb51276b857e149f0a3122cb6da8ed2a5dc752",
-    "ChinaIPs.list": "187c17d9550aff8a0c2b363af1beebf2ebe60f001bb9597f9afc16b78c963e09",
+    "ChinaIPs.list": "e4ebb18a3ada071de5593b3953b1eb432fc636c585799c880690a38b58144b00",
     "ChinaDomain.list": "86752112f32a6dd41983cd89bb51fc9f4757413395cebdfc00ab7c73fc5b7759"
   }
 }

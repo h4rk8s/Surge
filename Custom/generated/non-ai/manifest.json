@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T01:40:20+00:00",
+  "generated_at": "2026-06-02T12:51:36+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "165009",
+      "raw_count": "165314",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -285,7 +285,7 @@
     "non_ai__Unblocking.list": {
       "source_name": "non_ai__Unblocking.list",
       "source_kind": "upstream",
-      "raw_count": "180",
+      "raw_count": "181",
       "signal": ""
     },
     "non_ai__Direct.list": {
@@ -338,7 +338,7 @@
     }
   },
   "counts": {
-    "AdGuard.list": 165009,
+    "AdGuard.list": 165314,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -366,7 +366,7 @@
     "GlobalMedia.list": 2335,
     "Porn.list": 4914,
     "Proxy.list": 6794,
-    "Unblocking.list": 180,
+    "Unblocking.list": 181,
     "Direct.list": 268,
     "Lan.list": 140,
     "AmazonCN.list": 47,
@@ -377,7 +377,7 @@
     "ChinaDomain.list": 112796
   },
   "hashes": {
-    "AdGuard.list": "fc7ba0e412dabf14df44555f84d92b99940dc6ca480614d5a2d48991983a1a3e",
+    "AdGuard.list": "6b8df886a103166298290b14c458acf7221df0a1525d1a10f592315414734cbe",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",
@@ -405,7 +405,7 @@
     "GlobalMedia.list": "d98712a889fa9af3c6c5e5507ea2cfed08c8dd0dfd04c651dc3baba423eb6784",
     "Porn.list": "bec959af66d5fffca6e90a1b4eabacf0896081b1cb562c696e712690b7f2acdb",
     "Proxy.list": "c9db1ecc0c43df36ba7e69590de545222a5d26127f32aef27fb268cfa09fec8a",
-    "Unblocking.list": "0db04fb7b0269b2f788e8dae5dbab023528a1a52917098c094ff8a2d686e1283",
+    "Unblocking.list": "f7b97ccc3eb62667bfda5d32e1c2ed61959c3d212cae1b4ecbcded20ac792418",
     "Direct.list": "e175747cab98e3f0797409a7f87ea98f6cbdc7e74a7d14ab879c2bb08500e834",
     "Lan.list": "4fb4d38a45896a166707958b9a2b95b149d89d8fa9bc1e3f58b3331a17f40a1e",
     "AmazonCN.list": "a68c6bcdaf783dd06c21bac25306e00623ae4e428185d485a160bbd494bdc0dd",

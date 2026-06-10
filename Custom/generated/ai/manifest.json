@@ -1,6 +1,6 @@
 {
   "mode": "aggressive",
-  "generated_at": "2026-06-10T07:14:47+00:00",
+  "generated_at": "2026-06-10T13:14:56+00:00",
   "repo_seed_files": [
     "Custom/ChatGPT.refined.list",
     "Custom/GoogleAI.refined.list",
@@ -59,7 +59,7 @@
       "source_name": "sukka_ai",
       "source_kind": "upstream",
       "raw_count": "50",
-      "signal": "2026-03-21T15:12:50.583Z"
+      "signal": "2026-03-21T15:12:16Z"
     },
     "metacubex_ai_bundle": {
       "source_name": "metacubex_ai_bundle",

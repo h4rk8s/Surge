@@ -1,6 +1,6 @@
 {
   "mode": "aggressive",
-  "generated_at": "2026-06-19T07:22:29+00:00",
+  "generated_at": "2026-06-19T19:22:49+00:00",
   "repo_seed_files": [
     "Custom/ChatGPT.refined.list",
     "Custom/GoogleAI.refined.list",
@@ -70,8 +70,8 @@
     "dustinwin_ai": {
       "source_name": "dustinwin_ai",
       "source_kind": "upstream",
-      "raw_count": "",
-      "signal": "IncompleteRead(1378 bytes read, 1815 more expected)"
+      "raw_count": "168",
+      "signal": ""
     },
     "viewer12_overseas_ai": {
       "source_name": "viewer12_overseas_ai",

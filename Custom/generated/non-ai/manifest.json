@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T03:52:04+00:00",
+  "generated_at": "2026-07-07T03:53:01+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -166,7 +166,7 @@
       "source_name": "non_ai__Microsoft.list",
       "source_kind": "upstream",
       "raw_count": "673",
-      "signal": "2025-12-08 02:06:20"
+      "signal": "2025-12-21T16:23:05Z"
     },
     "non_ai__Amazon.list": {
       "source_name": "non_ai__Amazon.list",
@@ -220,7 +220,7 @@
       "source_name": "non_ai__Threads.list",
       "source_kind": "upstream",
       "raw_count": "1",
-      "signal": "2024-01-08 16:02:59"
+      "signal": "2024-02-02T17:55:24Z"
     },
     "non_ai__Spotify.list": {
       "source_name": "non_ai__Spotify.list",
@@ -280,7 +280,7 @@
       "source_name": "non_ai__Proxy.list",
       "source_kind": "upstream",
       "raw_count": "6888",
-      "signal": "2026-07-04 02:33:20"
+      "signal": "2026-07-03T18:38:18Z"
     },
     "non_ai__Unblocking.list": {
       "source_name": "non_ai__Unblocking.list",

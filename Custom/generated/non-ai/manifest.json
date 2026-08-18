@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T05:02:08+00:00",
+  "generated_at": "2026-08-18T04:17:54+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "156061",
+      "raw_count": "176416",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -142,7 +142,7 @@
       "source_name": "non_ai__Apple.list",
       "source_kind": "upstream",
       "raw_count": "1616",
-      "signal": "2026-08-16 02:20:00"
+      "signal": "2026-08-18 02:28:52"
     },
     "non_ai__GitHub.list": {
       "source_name": "non_ai__GitHub.list",
@@ -232,7 +232,7 @@
       "source_name": "non_ai__YouTube.list",
       "source_kind": "upstream",
       "raw_count": "190",
-      "signal": "2025-06-06 09:15:09"
+      "signal": "2025-06-17T07:19:38Z"
     },
     "non_ai__YouTubeMusic.list": {
       "source_name": "non_ai__YouTubeMusic.list",
@@ -262,7 +262,7 @@
       "source_name": "non_ai__Disney.list",
       "source_kind": "upstream",
       "raw_count": "175",
-      "signal": "2025-07-30 02:08:18"
+      "signal": "2025-12-21T16:23:05Z"
     },
     "non_ai__GlobalMedia.list": {
       "source_name": "non_ai__GlobalMedia.list",
@@ -274,7 +274,7 @@
       "source_name": "non_ai__Porn.list",
       "source_kind": "upstream",
       "raw_count": "4914",
-      "signal": ""
+      "signal": "2026-06-12T05:49:30Z"
     },
     "non_ai__Proxy.list": {
       "source_name": "non_ai__Proxy.list",
@@ -292,7 +292,7 @@
       "source_name": "non_ai__Direct.list",
       "source_kind": "upstream",
       "raw_count": "268",
-      "signal": "2025-08-12 02:08:14"
+      "signal": "2025-12-21T16:23:05Z"
     },
     "non_ai__Lan.list": {
       "source_name": "non_ai__Lan.list",
@@ -304,7 +304,7 @@
       "source_name": "non_ai__AmazonCN.list",
       "source_kind": "upstream",
       "raw_count": "47",
-      "signal": "2024-01-08 16:03:00"
+      "signal": "2024-02-02T17:55:24Z"
     },
     "non_ai__CloudflareCN.list": {
       "source_name": "non_ai__CloudflareCN.list",
@@ -327,8 +327,8 @@
     "non_ai__ChinaIPs.list": {
       "source_name": "non_ai__ChinaIPs.list",
       "source_kind": "upstream",
-      "raw_count": "22415",
-      "signal": "2026-08-16 02:22:12"
+      "raw_count": "22416",
+      "signal": "2026-08-18 02:31:07"
     },
     "non_ai__ChinaDomain.list": {
       "source_name": "non_ai__ChinaDomain.list",
@@ -338,7 +338,7 @@
     }
   },
   "counts": {
-    "AdGuard.list": 156061,
+    "AdGuard.list": 176416,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -373,11 +373,11 @@
     "CloudflareCN.list": 14,
     "Download.list": 20,
     "GoogleCN.list": 29,
-    "ChinaIPs.list": 22415,
+    "ChinaIPs.list": 22416,
     "ChinaDomain.list": 110774
   },
   "hashes": {
-    "AdGuard.list": "a7386a02f5c30cfb928431b50e673196ba87c9dd544a998ca4073eebce2828fa",
+    "AdGuard.list": "aaa2228f0e4adf2633a7d1eaae9ab9b0cf654bbb06b867942cc13eb5dae67ace",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",
@@ -412,7 +412,7 @@
     "CloudflareCN.list": "4c5384c22519135ceb321e8a2ae393ef931749710d72c4f6ec80eabcf506d6a8",
     "Download.list": "f7bbb19a6a7ee5cad6f7b3f0587a2218781aeceefc5606d032cdfe69ccf70a0b",
     "GoogleCN.list": "2518b7a08c77fb9b10df44ebf5bb51276b857e149f0a3122cb6da8ed2a5dc752",
-    "ChinaIPs.list": "a1d0749be06b9eaee46678f232d45f4c71ee3144fedb9b8b0315e4658269580f",
+    "ChinaIPs.list": "987d75ffd537989a66d73d65ccca0ad8c74ac58f7b98fd7e052f1e1deecd7c2b",
     "ChinaDomain.list": "b46e47be092adcf94b2482b0b4262568af25107751df16408b046f5eb68f8606"
   }
 }

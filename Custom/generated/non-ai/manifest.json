@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T04:17:54+00:00",
+  "generated_at": "2026-08-19T04:19:25+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,14 +117,14 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "176416",
+      "raw_count": "176708",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
       "source_name": "non_ai__Hijacking.list",
       "source_kind": "upstream",
       "raw_count": "228",
-      "signal": "2025-06-06 09:15:02"
+      "signal": "2025-06-17T07:19:38Z"
     },
     "non_ai__BlockHttpDNS.list": {
       "source_name": "non_ai__BlockHttpDNS.list",
@@ -232,7 +232,7 @@
       "source_name": "non_ai__YouTube.list",
       "source_kind": "upstream",
       "raw_count": "190",
-      "signal": "2025-06-17T07:19:38Z"
+      "signal": "2025-06-06 09:15:09"
     },
     "non_ai__YouTubeMusic.list": {
       "source_name": "non_ai__YouTubeMusic.list",
@@ -262,7 +262,7 @@
       "source_name": "non_ai__Disney.list",
       "source_kind": "upstream",
       "raw_count": "175",
-      "signal": "2025-12-21T16:23:05Z"
+      "signal": "2025-07-30 02:08:18"
     },
     "non_ai__GlobalMedia.list": {
       "source_name": "non_ai__GlobalMedia.list",
@@ -304,7 +304,7 @@
       "source_name": "non_ai__AmazonCN.list",
       "source_kind": "upstream",
       "raw_count": "47",
-      "signal": "2024-02-02T17:55:24Z"
+      "signal": "2024-01-08 16:03:00"
     },
     "non_ai__CloudflareCN.list": {
       "source_name": "non_ai__CloudflareCN.list",
@@ -338,7 +338,7 @@
     }
   },
   "counts": {
-    "AdGuard.list": 176416,
+    "AdGuard.list": 176708,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -377,7 +377,7 @@
     "ChinaDomain.list": 110774
   },
   "hashes": {
-    "AdGuard.list": "aaa2228f0e4adf2633a7d1eaae9ab9b0cf654bbb06b867942cc13eb5dae67ace",
+    "AdGuard.list": "4584e6b0bfa2bfcdbd84b79e3b22d2a983d320d183f70eaec0f8fa1df9b6df00",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",

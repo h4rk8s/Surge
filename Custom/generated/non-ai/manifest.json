@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T02:01:27+00:00",
+  "generated_at": "2026-08-21T02:01:53+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -142,7 +142,7 @@
       "source_name": "non_ai__Apple.list",
       "source_kind": "upstream",
       "raw_count": "1616",
-      "signal": "2026-08-18 02:28:52"
+      "signal": "2026-08-20 02:25:34"
     },
     "non_ai__GitHub.list": {
       "source_name": "non_ai__GitHub.list",
@@ -154,7 +154,7 @@
       "source_name": "non_ai__Google.list",
       "source_kind": "upstream",
       "raw_count": "703",
-      "signal": "2026-05-12 02:38:11"
+      "signal": "2026-05-11T18:44:43Z"
     },
     "non_ai__OneDrive.list": {
       "source_name": "non_ai__OneDrive.list",
@@ -285,7 +285,7 @@
     "non_ai__Unblocking.list": {
       "source_name": "non_ai__Unblocking.list",
       "source_kind": "upstream",
-      "raw_count": "184",
+      "raw_count": "185",
       "signal": ""
     },
     "non_ai__Direct.list": {
@@ -328,7 +328,7 @@
       "source_name": "non_ai__ChinaIPs.list",
       "source_kind": "upstream",
       "raw_count": "22416",
-      "signal": "2026-08-20 02:27:51"
+      "signal": "2026-08-19T18:32:09Z"
     },
     "non_ai__ChinaDomain.list": {
       "source_name": "non_ai__ChinaDomain.list",
@@ -366,7 +366,7 @@
     "GlobalMedia.list": 2335,
     "Porn.list": 4914,
     "Proxy.list": 6900,
-    "Unblocking.list": 184,
+    "Unblocking.list": 185,
     "Direct.list": 268,
     "Lan.list": 140,
     "AmazonCN.list": 47,
@@ -405,7 +405,7 @@
     "GlobalMedia.list": "d98712a889fa9af3c6c5e5507ea2cfed08c8dd0dfd04c651dc3baba423eb6784",
     "Porn.list": "bec959af66d5fffca6e90a1b4eabacf0896081b1cb562c696e712690b7f2acdb",
     "Proxy.list": "ab6df138fc53567ea9507ff59543ac87c77304fabbb48032f322fb86c54a2830",
-    "Unblocking.list": "bf54fbe6bf504ad5f402f74c8242d046f042ff12e248784c79646ee7203b7606",
+    "Unblocking.list": "6209e21990fd7c009890f36758b20fe460847684c8ecc51afe1b249c3c8c2c37",
     "Direct.list": "e175747cab98e3f0797409a7f87ea98f6cbdc7e74a7d14ab879c2bb08500e834",
     "Lan.list": "4fb4d38a45896a166707958b9a2b95b149d89d8fa9bc1e3f58b3331a17f40a1e",
     "AmazonCN.list": "a68c6bcdaf783dd06c21bac25306e00623ae4e428185d485a160bbd494bdc0dd",

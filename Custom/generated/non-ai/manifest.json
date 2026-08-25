@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T02:04:29+00:00",
+  "generated_at": "2026-08-25T02:05:03+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -142,7 +142,7 @@
       "source_name": "non_ai__Apple.list",
       "source_kind": "upstream",
       "raw_count": "1616",
-      "signal": "2026-08-22 02:28:35"
+      "signal": "2026-08-24 02:21:47"
     },
     "non_ai__GitHub.list": {
       "source_name": "non_ai__GitHub.list",
@@ -279,8 +279,8 @@
     "non_ai__Proxy.list": {
       "source_name": "non_ai__Proxy.list",
       "source_kind": "upstream",
-      "raw_count": "6901",
-      "signal": "2026-08-22 02:30:24"
+      "raw_count": "6907",
+      "signal": "2026-08-24 02:23:41"
     },
     "non_ai__Unblocking.list": {
       "source_name": "non_ai__Unblocking.list",
@@ -365,7 +365,7 @@
     "Disney.list": 175,
     "GlobalMedia.list": 2335,
     "Porn.list": 4914,
-    "Proxy.list": 6901,
+    "Proxy.list": 6907,
     "Unblocking.list": 185,
     "Direct.list": 268,
     "Lan.list": 140,
@@ -404,7 +404,7 @@
     "Disney.list": "afe046f58964d75f930cbe461b5684a5fcd44de256b2bbde705e3c851d7e3de9",
     "GlobalMedia.list": "d98712a889fa9af3c6c5e5507ea2cfed08c8dd0dfd04c651dc3baba423eb6784",
     "Porn.list": "bec959af66d5fffca6e90a1b4eabacf0896081b1cb562c696e712690b7f2acdb",
-    "Proxy.list": "ea59929739349829c4124ca66120216705c5640a1741691d02d6d46d3ee23264",
+    "Proxy.list": "354f85235acbfb82b00938b77cc03a59f86be6447ea9e57bc5cd0e66dd836777",
     "Unblocking.list": "6209e21990fd7c009890f36758b20fe460847684c8ecc51afe1b249c3c8c2c37",
     "Direct.list": "e175747cab98e3f0797409a7f87ea98f6cbdc7e74a7d14ab879c2bb08500e834",
     "Lan.list": "4fb4d38a45896a166707958b9a2b95b149d89d8fa9bc1e3f58b3331a17f40a1e",

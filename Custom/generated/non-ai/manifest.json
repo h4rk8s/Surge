@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T02:05:27+00:00",
+  "generated_at": "2026-08-27T02:06:15+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -136,7 +136,7 @@
       "source_name": "non_ai__Privacy.list",
       "source_kind": "upstream",
       "raw_count": "39936",
-      "signal": "2025-12-08 02:06:16"
+      "signal": "2025-12-21T16:23:05Z"
     },
     "non_ai__Apple.list": {
       "source_name": "non_ai__Apple.list",

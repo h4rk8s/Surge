@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T02:14:50+00:00",
+  "generated_at": "2026-09-12T02:15:35+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "177464",
+      "raw_count": "177828",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -142,7 +142,7 @@
       "source_name": "non_ai__Apple.list",
       "source_kind": "upstream",
       "raw_count": "1616",
-      "signal": "2026-09-10 04:18:50"
+      "signal": "2026-09-12 04:18:44"
     },
     "non_ai__GitHub.list": {
       "source_name": "non_ai__GitHub.list",
@@ -285,7 +285,7 @@
     "non_ai__Unblocking.list": {
       "source_name": "non_ai__Unblocking.list",
       "source_kind": "upstream",
-      "raw_count": "185",
+      "raw_count": "186",
       "signal": ""
     },
     "non_ai__Direct.list": {
@@ -338,7 +338,7 @@
     }
   },
   "counts": {
-    "AdGuard.list": 177464,
+    "AdGuard.list": 177828,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -366,7 +366,7 @@
     "GlobalMedia.list": 2335,
     "Porn.list": 4914,
     "Proxy.list": 6923,
-    "Unblocking.list": 185,
+    "Unblocking.list": 186,
     "Direct.list": 268,
     "Lan.list": 140,
     "AmazonCN.list": 47,
@@ -377,7 +377,7 @@
     "ChinaDomain.list": 110459
   },
   "hashes": {
-    "AdGuard.list": "9aca8a2e3a3304250f83bfaa4de8c97a2aa555321e905d457a6a58c40af76821",
+    "AdGuard.list": "816ffbd13587f43cfd2a272b077e374da0e3373994d014cf3cb4e7fc585d1189",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",
@@ -405,7 +405,7 @@
     "GlobalMedia.list": "d98712a889fa9af3c6c5e5507ea2cfed08c8dd0dfd04c651dc3baba423eb6784",
     "Porn.list": "bec959af66d5fffca6e90a1b4eabacf0896081b1cb562c696e712690b7f2acdb",
     "Proxy.list": "826543846dcd90f2d177c10df11357cc8648fe60903cb5de3b815857cc18e46d",
-    "Unblocking.list": "6209e21990fd7c009890f36758b20fe460847684c8ecc51afe1b249c3c8c2c37",
+    "Unblocking.list": "21d98f1acb0cc767bd3eb98170e12fa84503c9df51bd5d9b079514ea7d24efbd",
     "Direct.list": "e175747cab98e3f0797409a7f87ea98f6cbdc7e74a7d14ab879c2bb08500e834",
     "Lan.list": "4fb4d38a45896a166707958b9a2b95b149d89d8fa9bc1e3f58b3331a17f40a1e",
     "AmazonCN.list": "a68c6bcdaf783dd06c21bac25306e00623ae4e428185d485a160bbd494bdc0dd",

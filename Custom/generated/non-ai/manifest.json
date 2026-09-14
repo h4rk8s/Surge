@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T02:16:16+00:00",
+  "generated_at": "2026-09-14T02:16:49+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "178192",
+      "raw_count": "178550",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -268,7 +268,7 @@
       "source_name": "non_ai__GlobalMedia.list",
       "source_kind": "upstream",
       "raw_count": "2335",
-      "signal": "2026-09-02 04:26:50"
+      "signal": "2026-09-14 04:08:55"
     },
     "non_ai__Porn.list": {
       "source_name": "non_ai__Porn.list",
@@ -279,8 +279,8 @@
     "non_ai__Proxy.list": {
       "source_name": "non_ai__Proxy.list",
       "source_kind": "upstream",
-      "raw_count": "6923",
-      "signal": "2026-09-08 05:03:30"
+      "raw_count": "6924",
+      "signal": "2026-09-14 04:08:54"
     },
     "non_ai__Unblocking.list": {
       "source_name": "non_ai__Unblocking.list",
@@ -338,7 +338,7 @@
     }
   },
   "counts": {
-    "AdGuard.list": 178192,
+    "AdGuard.list": 178550,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -365,7 +365,7 @@
     "Disney.list": 175,
     "GlobalMedia.list": 2335,
     "Porn.list": 4914,
-    "Proxy.list": 6923,
+    "Proxy.list": 6924,
     "Unblocking.list": 186,
     "Direct.list": 268,
     "Lan.list": 140,
@@ -377,7 +377,7 @@
     "ChinaDomain.list": 110459
   },
   "hashes": {
-    "AdGuard.list": "4c441effeda9e26e062a6c9ef3976818229a50624810b5e6375adf990da8158e",
+    "AdGuard.list": "532311a51b7e2a3d71c1fbb0ae96a2a801d93811c0283be43d6a442c4599c03e",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",
@@ -404,7 +404,7 @@
     "Disney.list": "afe046f58964d75f930cbe461b5684a5fcd44de256b2bbde705e3c851d7e3de9",
     "GlobalMedia.list": "d98712a889fa9af3c6c5e5507ea2cfed08c8dd0dfd04c651dc3baba423eb6784",
     "Porn.list": "bec959af66d5fffca6e90a1b4eabacf0896081b1cb562c696e712690b7f2acdb",
-    "Proxy.list": "826543846dcd90f2d177c10df11357cc8648fe60903cb5de3b815857cc18e46d",
+    "Proxy.list": "6148f36a8cf1dd462c82e2323d00115841a906df743c4a46eb4d4e75ca15656d",
     "Unblocking.list": "21d98f1acb0cc767bd3eb98170e12fa84503c9df51bd5d9b079514ea7d24efbd",
     "Direct.list": "e175747cab98e3f0797409a7f87ea98f6cbdc7e74a7d14ab879c2bb08500e834",
     "Lan.list": "4fb4d38a45896a166707958b9a2b95b149d89d8fa9bc1e3f58b3331a17f40a1e",

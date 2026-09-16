@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T02:17:18+00:00",
+  "generated_at": "2026-09-16T02:18:21+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "178915",
+      "raw_count": "179295",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -142,7 +142,7 @@
       "source_name": "non_ai__Apple.list",
       "source_kind": "upstream",
       "raw_count": "1616",
-      "signal": "2026-09-14 04:06:56"
+      "signal": "2026-09-15T20:52:04Z"
     },
     "non_ai__GitHub.list": {
       "source_name": "non_ai__GitHub.list",
@@ -154,7 +154,7 @@
       "source_name": "non_ai__Google.list",
       "source_kind": "upstream",
       "raw_count": "703",
-      "signal": "2026-05-12 02:38:11"
+      "signal": "2026-05-11T18:44:43Z"
     },
     "non_ai__OneDrive.list": {
       "source_name": "non_ai__OneDrive.list",
@@ -172,7 +172,7 @@
       "source_name": "non_ai__Amazon.list",
       "source_kind": "upstream",
       "raw_count": "206",
-      "signal": "2025-06-06 09:16:56"
+      "signal": "2025-06-17T07:19:38Z"
     },
     "non_ai__AmazonIP.list": {
       "source_name": "non_ai__AmazonIP.list",
@@ -184,7 +184,7 @@
       "source_name": "non_ai__Jetbrains.list",
       "source_kind": "upstream",
       "raw_count": "14",
-      "signal": "2025-06-06 09:17:44"
+      "signal": "2025-06-17T07:19:38Z"
     },
     "non_ai__Cloudflare.list": {
       "source_name": "non_ai__Cloudflare.list",
@@ -196,7 +196,7 @@
       "source_name": "non_ai__Telegram.list",
       "source_kind": "upstream",
       "raw_count": "51",
-      "signal": ""
+      "signal": "2026-07-08T03:35:45Z"
     },
     "non_ai__Discord.list": {
       "source_name": "non_ai__Discord.list",
@@ -280,7 +280,7 @@
       "source_name": "non_ai__Proxy.list",
       "source_kind": "upstream",
       "raw_count": "6924",
-      "signal": "2026-09-14 04:08:54"
+      "signal": "2026-09-13T20:13:50Z"
     },
     "non_ai__Unblocking.list": {
       "source_name": "non_ai__Unblocking.list",
@@ -338,7 +338,7 @@
     }
   },
   "counts": {
-    "AdGuard.list": 178915,
+    "AdGuard.list": 179295,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -377,7 +377,7 @@
     "ChinaDomain.list": 110459
   },
   "hashes": {
-    "AdGuard.list": "d58e4de2dfc7350d8861b7e0dd16032a8026b181a560766a859183e46abf88ba",
+    "AdGuard.list": "9a615213ea81d134478ce403477bf13afda14e387baaaf4e537f9f53e41b40dd",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T02:18:21+00:00",
+  "generated_at": "2026-09-16T03:34:26+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -142,7 +142,7 @@
       "source_name": "non_ai__Apple.list",
       "source_kind": "upstream",
       "raw_count": "1616",
-      "signal": "2026-09-15T20:52:04Z"
+      "signal": "2026-09-14 04:06:56"
     },
     "non_ai__GitHub.list": {
       "source_name": "non_ai__GitHub.list",
@@ -154,7 +154,7 @@
       "source_name": "non_ai__Google.list",
       "source_kind": "upstream",
       "raw_count": "703",
-      "signal": "2026-05-11T18:44:43Z"
+      "signal": "2026-05-12 02:38:11"
     },
     "non_ai__OneDrive.list": {
       "source_name": "non_ai__OneDrive.list",
@@ -172,7 +172,7 @@
       "source_name": "non_ai__Amazon.list",
       "source_kind": "upstream",
       "raw_count": "206",
-      "signal": "2025-06-17T07:19:38Z"
+      "signal": "2025-06-06 09:16:56"
     },
     "non_ai__AmazonIP.list": {
       "source_name": "non_ai__AmazonIP.list",
@@ -184,7 +184,7 @@
       "source_name": "non_ai__Jetbrains.list",
       "source_kind": "upstream",
       "raw_count": "14",
-      "signal": "2025-06-17T07:19:38Z"
+      "signal": "2025-06-06 09:17:44"
     },
     "non_ai__Cloudflare.list": {
       "source_name": "non_ai__Cloudflare.list",
@@ -196,7 +196,7 @@
       "source_name": "non_ai__Telegram.list",
       "source_kind": "upstream",
       "raw_count": "51",
-      "signal": "2026-07-08T03:35:45Z"
+      "signal": ""
     },
     "non_ai__Discord.list": {
       "source_name": "non_ai__Discord.list",
@@ -280,7 +280,7 @@
       "source_name": "non_ai__Proxy.list",
       "source_kind": "upstream",
       "raw_count": "6924",
-      "signal": "2026-09-13T20:13:50Z"
+      "signal": "2026-09-14 04:08:54"
     },
     "non_ai__Unblocking.list": {
       "source_name": "non_ai__Unblocking.list",

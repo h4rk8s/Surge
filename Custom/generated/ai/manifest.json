@@ -1,6 +1,6 @@
 {
   "mode": "aggressive",
-  "generated_at": "2026-09-16T15:34:34+00:00",
+  "generated_at": "2026-09-17T15:35:30+00:00",
   "repo_seed_files": [
     "Custom/ChatGPT.refined.list",
     "Custom/GoogleAI.refined.list",
@@ -77,7 +77,7 @@
       "source_name": "viewer12_overseas_ai",
       "source_kind": "upstream",
       "raw_count": "592",
-      "signal": "2026-09-16 06:57:19"
+      "signal": "2026-09-17 06:52:34"
     },
     "official.openai.aggressive_seed": {
       "source_name": "official.openai.aggressive_seed",

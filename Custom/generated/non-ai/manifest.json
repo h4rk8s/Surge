@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T03:37:01+00:00",
+  "generated_at": "2026-09-23T03:37:31+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "181048",
+      "raw_count": "181402",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -338,7 +338,7 @@
     }
   },
   "counts": {
-    "AdGuard.list": 181048,
+    "AdGuard.list": 181402,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -377,7 +377,7 @@
     "ChinaDomain.list": 110459
   },
   "hashes": {
-    "AdGuard.list": "8d84b0c31041d9a104b856719ac684162b3bd7b8b5a7fcc9a60a510a037df49a",
+    "AdGuard.list": "2fa25efc88205a124ff66a9250d61d095f06c344b65830dc1286494781154ee7",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",

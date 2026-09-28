@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T03:39:37+00:00",
+  "generated_at": "2026-09-28T03:40:14+00:00",
   "mirrors": {
     "AdGuard.list": [
       "https://raw.githubusercontent.com/chenyk1219/surge/release/adg.list"
@@ -117,7 +117,7 @@
     "non_ai__AdGuard.list": {
       "source_name": "non_ai__AdGuard.list",
       "source_kind": "upstream",
-      "raw_count": "182706",
+      "raw_count": "183342",
       "signal": ""
     },
     "non_ai__Hijacking.list": {
@@ -136,7 +136,7 @@
       "source_name": "non_ai__Privacy.list",
       "source_kind": "upstream",
       "raw_count": "39936",
-      "signal": "2025-12-08 02:06:16"
+      "signal": "2025-12-21T16:23:05Z"
     },
     "non_ai__Apple.list": {
       "source_name": "non_ai__Apple.list",
@@ -154,7 +154,7 @@
       "source_name": "non_ai__Google.list",
       "source_kind": "upstream",
       "raw_count": "703",
-      "signal": "2026-05-12 02:38:11"
+      "signal": "2026-05-11T18:44:43Z"
     },
     "non_ai__OneDrive.list": {
       "source_name": "non_ai__OneDrive.list",
@@ -178,7 +178,7 @@
       "source_name": "non_ai__AmazonIP.list",
       "source_kind": "upstream",
       "raw_count": "1521",
-      "signal": "2025-06-06 09:18:53"
+      "signal": "2025-06-17T07:19:38Z"
     },
     "non_ai__Jetbrains.list": {
       "source_name": "non_ai__Jetbrains.list",
@@ -190,7 +190,7 @@
       "source_name": "non_ai__Cloudflare.list",
       "source_kind": "upstream",
       "raw_count": "65",
-      "signal": "2025-06-06 09:16:55"
+      "signal": "2025-06-17T07:19:38Z"
     },
     "non_ai__Telegram.list": {
       "source_name": "non_ai__Telegram.list",
@@ -220,7 +220,7 @@
       "source_name": "non_ai__Threads.list",
       "source_kind": "upstream",
       "raw_count": "1",
-      "signal": "2024-01-08 16:02:59"
+      "signal": "2024-02-02T17:55:24Z"
     },
     "non_ai__Spotify.list": {
       "source_name": "non_ai__Spotify.list",
@@ -232,7 +232,7 @@
       "source_name": "non_ai__YouTube.list",
       "source_kind": "upstream",
       "raw_count": "190",
-      "signal": "2025-06-06 09:15:09"
+      "signal": "2025-06-17T07:19:38Z"
     },
     "non_ai__YouTubeMusic.list": {
       "source_name": "non_ai__YouTubeMusic.list",
@@ -285,7 +285,7 @@
     "non_ai__Unblocking.list": {
       "source_name": "non_ai__Unblocking.list",
       "source_kind": "upstream",
-      "raw_count": "188",
+      "raw_count": "189",
       "signal": ""
     },
     "non_ai__Direct.list": {
@@ -338,7 +338,7 @@
     }
   },
   "counts": {
-    "AdGuard.list": 182706,
+    "AdGuard.list": 183342,
     "Hijacking.list": 228,
     "BlockHttpDNS.list": 63,
     "Privacy.list": 39936,
@@ -366,7 +366,7 @@
     "GlobalMedia.list": 2335,
     "Porn.list": 4914,
     "Proxy.list": 6926,
-    "Unblocking.list": 188,
+    "Unblocking.list": 189,
     "Direct.list": 268,
     "Lan.list": 140,
     "AmazonCN.list": 47,
@@ -377,7 +377,7 @@
     "ChinaDomain.list": 110645
   },
   "hashes": {
-    "AdGuard.list": "d3284fdb4ecf6b9f4ecc54f5e8303d9e9c6ae79af102ec4550978baea98ecda3",
+    "AdGuard.list": "b6853118fe6aca97acb885ed9fd02b3e2ecc873a145ce9d60c7bbf588f66bd38",
     "Hijacking.list": "ee2dcbfafb7e79388dc398dd480974fa94b5523500a5a481320c531183a6bc20",
     "BlockHttpDNS.list": "041d6044c3ec624b09b91b87b3fdd914080a1c140eb1b7be82a7d7d53cd70c4b",
     "Privacy.list": "fb5b9dff0ae2ee7dfcd7156adc06bc98c30d482836e9097393083208d2ce2c6b",
@@ -405,7 +405,7 @@
     "GlobalMedia.list": "d98712a889fa9af3c6c5e5507ea2cfed08c8dd0dfd04c651dc3baba423eb6784",
     "Porn.list": "bec959af66d5fffca6e90a1b4eabacf0896081b1cb562c696e712690b7f2acdb",
     "Proxy.list": "4eaa81a673a4b2d94849ea9e3b3fd046d1212dfdbd62bebc7017c5225973df2e",
-    "Unblocking.list": "aa9b9ceb921112995efe7b2ebf0a21e206e1300e5967ed64299a6a8d088dd317",
+    "Unblocking.list": "fc969384f0aee94691002ea6792e6e9deda4a07ca6af8690a29388b3d860d1fb",
     "Direct.list": "e175747cab98e3f0797409a7f87ea98f6cbdc7e74a7d14ab879c2bb08500e834",
     "Lan.list": "4fb4d38a45896a166707958b9a2b95b149d89d8fa9bc1e3f58b3331a17f40a1e",
     "AmazonCN.list": "a68c6bcdaf783dd06c21bac25306e00623ae4e428185d485a160bbd494bdc0dd",

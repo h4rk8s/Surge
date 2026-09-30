@@ -27,6 +27,8 @@ DOMAIN,flowith.io
 DOMAIN,forwarder.workos.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,gemini.google.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,humb.apple.com
 DOMAIN,images.workoscdn.com
@@ -37,8 +39,6 @@ DOMAIN,mobile.launchdarkly.com
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
 DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openai.qualtrics.com
-DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,openaiassets.blob.core.windows.net
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicom.imgix.net

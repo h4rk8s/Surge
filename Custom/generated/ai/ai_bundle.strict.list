@@ -93,6 +93,7 @@ DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.directory
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,datadoghq.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
@@ -162,6 +163,7 @@ DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,qpoe.com
 DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,replicate.delivery
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io

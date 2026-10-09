@@ -26,10 +26,13 @@ DOMAIN,flowith.featurebase.app
 DOMAIN,flowith.io
 DOMAIN,forwarder.workos.com
 DOMAIN,gateway.ai.cloudflare.com
+DOMAIN,geller-pa.googleapis.com
 DOMAIN,gemini.google.com
+DOMAIN,gemini.gstatic.com
 DOMAIN,geminiweb-pa.clients.google.com
 DOMAIN,geminiweb-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
+DOMAIN,grok.x.com
 DOMAIN,humb.apple.com
 DOMAIN,images.workoscdn.com
 DOMAIN,js.stripe.com

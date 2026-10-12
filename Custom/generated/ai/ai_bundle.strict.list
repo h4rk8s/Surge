@@ -55,6 +55,7 @@ DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,robinfrontend-pa.googleapis.com
 DOMAIN,rum.browser-intake-datadoghq.com
 DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,server.self-serve.windsurf.com
 DOMAIN,static.cloudflareinsights.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,ads-twitter.com

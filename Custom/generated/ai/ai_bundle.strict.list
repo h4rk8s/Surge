@@ -33,6 +33,7 @@ DOMAIN,geminiweb-pa.clients.google.com
 DOMAIN,geminiweb-pa.clients6.google.com
 DOMAIN,generativelanguage.googleapis.com
 DOMAIN,grok.x.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
 DOMAIN,humb.apple.com
 DOMAIN,images.workoscdn.com
 DOMAIN,js.stripe.com
@@ -130,6 +131,7 @@ DOMAIN-SUFFIX,glama.ai
 DOMAIN-SUFFIX,grok-sandbox.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokbot.com
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,groksupport.com
 DOMAIN-SUFFIX,groktpcontent.com

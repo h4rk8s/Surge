@@ -8,6 +8,7 @@ DOMAIN,cdn.workos.com
 DOMAIN,challenges.cloudflare.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,forwarder.workos.com
+DOMAIN,http-intake.logs.us5.datadoghq.com
 DOMAIN,humb.apple.com
 DOMAIN,images.workoscdn.com
 DOMAIN,js.stripe.com

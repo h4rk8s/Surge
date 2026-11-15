@@ -22,6 +22,7 @@ DOMAIN,clientstream.launchdarkly.com
 DOMAIN,cloudaicompanion.googleapis.com
 DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,daily-cloudcode-pa.sandbox.googleapis.com
 DOMAIN,flowith.featurebase.app
 DOMAIN,flowith.io
 DOMAIN,forwarder.workos.com

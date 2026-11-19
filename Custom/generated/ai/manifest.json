@@ -1,6 +1,6 @@
 {
   "mode": "aggressive",
-  "generated_at": "2026-11-18T20:26:53+00:00",
+  "generated_at": "2026-11-19T08:27:37+00:00",
   "repo_seed_files": [
     "Custom/ChatGPT.refined.list",
     "Custom/GoogleAI.refined.list",
@@ -58,8 +58,8 @@
     "sukka_ai": {
       "source_name": "sukka_ai",
       "source_kind": "upstream",
-      "raw_count": "59",
-      "signal": "2026-11-15T15:00:49.984Z"
+      "raw_count": "61",
+      "signal": "2026-11-19T07:34:43.743Z"
     },
     "metacubex_ai_bundle": {
       "source_name": "metacubex_ai_bundle",
@@ -172,19 +172,19 @@
   "counts": {
     "openai.strict.list": 69,
     "google_ai.strict.list": 55,
-    "anthropic.strict.list": 23,
+    "anthropic.strict.list": 25,
     "grok_x.strict.list": 42,
     "perplexity.strict.list": 5,
     "other_ai.strict.list": 48,
-    "ai_bundle.strict.list": 241
+    "ai_bundle.strict.list": 243
   },
   "hashes": {
     "openai.strict.list": "8b2446c954746a64559fb2fc8e7a606dbd5a71185a7069e861ebfee9ed412b41",
     "google_ai.strict.list": "bd80621a66e5d7bf1bae0fadd537aa32c6ad74160b3198f7c50e08481bd498ae",
-    "anthropic.strict.list": "04fc2fbe082f9cdca0775c04d30b2076d92b7c2602c3544d9fde656f1f0394cb",
+    "anthropic.strict.list": "0f3c5d291f930c0d2b8edba403a063138f186c4977a00ad81c61651b2c23a486",
     "grok_x.strict.list": "0f2cb8e114c583b5717117759e3364db569a35e14eb797b0327f7794b8f64475",
     "perplexity.strict.list": "037a704fdd473c18cab9cdde6b72f96072c7e88f993a939fdea684e09c6de93b",
     "other_ai.strict.list": "9f9a5b2c4b966e0b1cccdd87ded9e2d87c46b33ca79def8aa05706c14d2240a6",
-    "ai_bundle.strict.list": "f5b3ab75d1cf652126e5a9e08d0375ad4bfa6608cd42f916e07de4da268e8b35"
+    "ai_bundle.strict.list": "5fe2ee9fd236ac30188bb7b4302d71288daf277c682e93658d040790f6aa2bb3"
   }
 }

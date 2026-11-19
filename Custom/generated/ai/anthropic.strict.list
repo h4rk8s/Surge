@@ -2,7 +2,9 @@
 # mode: aggressive
 
 DOMAIN,a-cdn.claude.ai
+DOMAIN,bridge.claudeusercontent.com
 DOMAIN,cdn.usefathom.com
+DOMAIN,claude.site
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,anthropic.team
